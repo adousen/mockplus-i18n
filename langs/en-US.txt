@@ -1,0 +1,2083 @@
+;
+; Mockplus英文字符串
+; 
+; 注：如果需要忽略该数据值，则将数据值标记为 “__IgnoreDataValue__”
+;
+OK=OK
+Cancel=Cancel
+Yes=Yes
+No=No
+YesIKnow=OK, got it
+Confirm=Confirm
+Help=Help
+Exit=Exit
+Close=Close
+Start=Start
+End=End
+Finish=Finish	
+Loading=Loading
+Ready=Ready
+Set=Options
+Error=Error
+Fail=Fail
+Refresh=Refresh
+VersionText=Version
+Prompt=Prompt
+Continue=Continue
+Unknown=Unknown
+Download=Download
+Save=Save
+SaveAs=Save as
+Export=Export
+Print=Print
+Project=Project
+Link=Link
+Browse=Browse...
+State=State
+Trigger=Triggers
+Target=Targets
+Command=Commands
+Param=Params
+None=None
+Self=Self
+Home=Home
+Module=Folder
+Page=Page
+Master=Master
+Layout=Layout
+Layer=Layer
+Property=Property
+PageLink=Page links
+Icon=Icons
+Image=Image
+Favorite=Template
+Width=Width
+Height=Height
+Widen=Widen
+Heighten=Heighten
+ExpandIcons=Expand icons library
+CloudSync=Cloud sync 
+CloudRelease=Publish and share
+UserLib=My Libraries
+Revision=Revision history
+CopyComToBitmap=Copy image
+SaveAsComImage=Save as image
+SelectAll=Select all
+Apply=Apply
+Abort=Abort
+Maximize=Expand
+Minimize=Minimize
+Restore=Restore
+
+PropertyTitle=Properties
+InteractionTitle=Interactions
+
+LinkToPage=Page link
+LinkToCom=Component interaction
+
+ColorWhite=White
+ColorBlack=Black
+ColorYellow=Yellow
+ColorGreen=Green
+ColorBlue=Blue
+ColorRed=Red
+ColorGrey=Grey
+BackColor=BackColor
+ForeColor=ForeColor
+Gradient=Gradient
+Theme=Theme
+Radius=Radius
+DashMode=Style
+Thickness=Thickness
+ShowBackground=Show background
+
+Login=Login
+Logout=Logout
+Register=Register
+Return=Back
+Back=Back
+Forward=Forward
+Playback=Playback
+Email=E-mail
+Username=Username
+Password=Password
+All=All
+Recent=Recent
+Others=Others
+Update=Update
+About=About
+QQGroup=__IgnoreDataValue__
+Shortcut=Keyboard shortcuts
+
+
+Left=Left
+Top=Top
+Right=Right
+Bottom=Bottom
+Center=Center
+Middle=Middle
+Portrait=Portrait
+Landscape=Landscape
+Orientation=Orientation
+Vertical=Vertical
+Horizontal=Horizontal
+Margin=Margin
+MarginTop=Top
+MarginLeft=Left
+MarginRight=Right
+MarginBottom=Bottom
+Scope=Scope
+WholeProject=Whole project
+CurrentSelection=Current selection
+
+
+Delete=Delete
+DeleteAll=Delete all
+Remove=Remove
+RemoveAll=Remove all
+Rename=Rename
+Clone=Clone
+Copy=Copy
+Cut=Cut
+Paste=Paste
+PasteStyle=Paste style
+Crop=Crop
+Buy=Buy
+Lock=Lock
+Unlock=Unlock
+UnlockAll=Unlock all components
+SizeLocked=Fix size
+Clear=Clear
+Move=Move
+Support=Support
+Blog=Blog
+HomePage=Homepage
+ImportSketch=Import Sketch in Mockplus
+Tutorials=Tutorials
+Group=Group
+CombineGroup=Group
+UnGroup=Ungroup
+EditGroup=Edit group
+EndEditGroup=End editing
+Submit=Submit
+Fullscreen=Fullscreen
+ExitFullscreen=Exit fullscreen
+Edit=Edit
+View=View
+Tool=Tools
+Option=Options
+Coms=Components
+Search=Search
+Preview=Preview
+Share=Share
+Stop=Stop
+Upload=Upload
+ViewDetail=View details
+BringToFront=Bring to front
+SendToBack=Send to back
+BringUp=Bring forward
+SendBack=Send backward
+AlignLeft=Align left
+AlignTop=Align top
+AlignRight=Align right
+AlignBottom=Align bottom
+AlignCenter=Align center
+AlignMiddle=Align middle
+DistributeHori=Distribute horizontally
+DistributeVert=Distribute vertically
+HoriMaxWidth=Max horizontal width
+HoriMinWidth=Min horizontal width
+VertMaxHeight=Max vertical width
+VertMinHeight=Min vertical width
+ZOrder=Layering
+File=File
+Local=Local
+Web=Web
+Sizing=Size
+Alignment=Alignment
+Waring=Warning
+EntireSelection=Entire selection
+
+Basic=Basic
+Quick=Quick
+Rapid=Rapid(待定)
+Extention=Extension
+Interaction=Interaction
+Mobile=Mobile
+Comment=Markup
+Static=Static
+Chart=Chart
+
+Select=Select
+Add=Add
+MoveUp=Move up
+MoveDown=Move down
+Text=Text
+CleanAll=Clear all
+ActualSize=Actual size
+InsertImage=Import image...
+CropImage=Crop image
+SliceImage=Slice image
+Undo=Undo
+Redo=Redo
+CheckUpdate=Check for updates
+AddToFavorites=Add to my libraries
+SearchIcon=Search icon
+SearchComponent=Search component
+SearchFavorite=Search favorite
+SearchMaster=Search master
+GetSupport=Get support
+AskQuestionsinCommunity=Discuss on the Mockplus community
+AutoFill=Auto fill
+FillAlign=Random fill
+ConvertComToPopup=Convert to popup panel
+ConvertComToRepeater=Convert to repeater
+ConvertComToImage = Convert to image
+TransToImageTips = If convert the "Group" to image, all the interactions and links of the child components will be lost. \r\n\r\n Are you sure you want to continue?
+ScreenChangeToPortrait=Change to portrait
+ScreenChangeToLandscape=Change to landscape
+RootGroup=Root
+Ani=Animate
+Interpolation=Interpolation
+LinkSet=Create links
+Rotation=Rotate
+Visibility=Show / Hide
+PopupStateChange=Popup / Close
+ScrollTo=Scroll to
+SetColor=Set Color
+SetTextColor=Set Text Color
+SetText=Set Text
+Resize=Resize
+Scale=Zoom
+SwitchContent=Switch content
+Terminate=Terminate
+Hover=Hover
+Language=Language
+Account=Account
+Border=Border
+
+;
+; 常用字符串类型(#)
+;
+LearnMore=Learn more...
+ReadyDownload=Ready to download
+SureWantToDeleteSingle=Are you sure you want to delete the selected item(s)?
+ScanViewHelp=View help
+ImportImageTitle=Importing the %dth image...
+ImportImageCount=%d image(s)
+ImportImageProgress=Importing the %dth image...
+ConnectionNetworkError=Network connection error.
+MockplusInfo=Prototype Faster. Smarter. Easier.
+SortByName=Sort by name
+SortByTime=Sort by time
+DontPromptAgain=Don't prompt me about this again
+FileNotFound=File not found.
+ErrorInfo=Error information
+ImageFormat=Image format
+FileIsBeingUsed=%s file is being occupied by other programs.
+CreateBitmapError=Failed to create images.
+ImportImage=Import image
+PleaseInput=Please input
+MobilePreview=Scan QR code to quick preview
+PageTitleInvalid=Invalid page title.
+MaxPasteImageHint=Paste no more than %s images once.
+PasteImageFromClipboardError=Failed to copy images from clipboard.
+AniDelayTitle=Delay
+AniDelayPlay=__IgnoreDataValue__
+ShowComLinkFlagVisible=Show component's link mark
+SaveFileFail=Failed to save file.
+ExportCompleted=Export completed.
+ExportFail=Export failed.
+ImportCompleted=Import completed.
+ImportFail=Import failed.
+RenameFail=Failed to rename.
+Exporting=Exporting...
+Existed="%s" existed.
+OldVersionIcon=This component was created by an earlier version of Mockplus and doesn't support vector icon.
+ReplaceOldVersionIcon=Please replace it with the new "%s" and try again.
+FailedtoSubmitData=Failed to submit data.
+
+
+; 链接面板链接动画
+;
+LinkAniNone=None
+LinkAniPushLeft=Swipe left
+LinkAniPushRight=Swipe right
+LinkAniPushUp=Swipe up
+LinkAniPushDown=Swipe down
+LinkAniSlideLeft=Slide left
+LinkAniSlideRight=Slide right
+LinkAniSlideUp=Slide up
+LinkAniSlideDown=Slide down
+LinkAniFade=Fade
+LinkAniIris=Extend
+
+;
+;格式刷
+;	
+FormatPainter=Format painter
+AboutFormatPainter=In Mockplus, you can use format painter to copy formatting so as to work effeciently.
+HowtoUseFormatPainter=How to use the format painter?
+;
+; 颜色对话框
+;
+ColorLocalFav=Global favorites
+ColorProjectFav=Project favorites
+
+;
+; 裁剪区
+;
+ClipRectFixTopHint=This area is fixed. Scrolling is disabled.
+ClipRectFixBottomHint=This area is fixed. Scrolling is disabled.
+ClipRectScrollViewAreaHint=This area is for scrolling.
+
+;
+; 链接
+;
+LinkLinkedSourcePageWill=You will create a link redirected back to the page just skipped from.
+LinkNoTargetPage=No target is selected.
+LinkCreateNewPageTitle=Page title
+LinkCreateNewPageByClone=Clone the current page as well
+LinkCreateNewPagePrompt=It will create a new page and the current page will be linked to the new page.
+LinkDragContentPanelPrompt=Drag "link point" to a target page and set it as content.
+LinkCreateNewPageAndSkip=Jump to the new page
+
+;
+; 鏈接工具條
+;
+LinkBarCreateNewTargetPage = Create new target page
+LinkBarSkipTargetPage = Skip to the target page
+LinkBarCreateBackLink = Create backlink
+LinkBarRemoveLink = Delete page link
+	
+;
+; 资源库(#这个地方乱，，“收藏”、“资源”、“库”没有统一的说法)
+;
+
+AssetLibraryHasBeanDeleted=Library "%s" has been deleted.
+AssetIconDirectoryNotExist=Icon resource directory lost.
+AssetImportImagesError=Errors in batch importing images.
+AssetErrorByImageMissing=Can't find the image file, please check if it has been deleted.
+AssetAddFavError=Sorry, add favorites failed.
+
+;
+; 组件库
+;
+
+UserLibCheckAccessName=My libraries
+UserLibMakeDataCompatibleTitle=Mockplus data update
+UserLibMakeDataCompatibleHint=Updating component library data, please wait...
+UserLibMakeDateCompatibleCompleteHint=Update complete, opening program...
+UserLibExceedMaxComsHint=No more than 500 components in the library.
+UserLibImportMaxPicturesHint=The number of imported images should be no more than 100 at one time.
+UserLibImportLibFailedHint=File corrupted, failed to import.
+UserLibLoadErrorHint=Component library data loading exception, please restart Mockplus.
+UserLibMyLibs=My libraries
+UserLibManageUserLibs=Manage
+UserLibSync=Sync
+UserLibCreateLib=New library
+UserLibDownloadPublicLibs=Subscribe
+UserLibRemovePublicLibs=Unsubscribe
+UserLibImportLib=Import
+UserLibCreateLibFailedHint=Failed to create a library.
+UserLibNoSyncLibHint=No library found for syncing.
+UserLibImportLibCompletedHint=Library import complete.
+
+UserLibRemovePublicLibQuery=Are you sure you want to cancel the subscription?
+UserLibRemovePublishLibHint=This library has been published, deletion can make it no longer available for using or syncing.\r\nAre you sure you want to delete this library?
+UserLibRemoveUserLibQuery=Are you sure you want to delete this library?
+UserLibRemoveLibSuccessHint=Library has been deleted successfully.
+UserLibEditLibInfoTitle=Edit
+UserLibRemovePublish=Unpublish
+UserLibCloudDeleted=Deleted on the cloud
+UserLibShareCanceled=Sharing has been cancelled
+UserLibShareCount=%d shares
+UserLibShareToUser=Share to...
+UserLibOwner=Owner
+UserLibShowUserLib=Display in my libraries
+UserLibDownloadCount=%d downloads
+UserLibRemovePublicLib=Unsubscribe
+UserLibUploadFailedHint=Failed to upload.
+UserLibRemovePublishFailedHint=Failed to unpublish.
+UserLibRemoveFailedHint=Failed to delete.
+UserLibCheckSyncInfoFailedHint=Failed to detect sync information.
+UserLibSyncFailedHint=Failed to sync.
+UserLibGetAllCloudLibsFailedHint=Failed to get cloud libraries.
+UserLibDownloadFailedHint=Failed to download.
+UserLibDownloadPublicLibFailedHint=Failed to subscribe.
+UserLibRemovePublicLibFaildHint=Failed to unsubscribe.
+UserLibGetShareUserListFailedHint=Failed to get account.
+UserLibAddShareUserFailedHint=Failed to share with this account.
+UserLibRemoveShareUserFailedHint=Failed to delete this account from sharing.
+UserLibPublishSucceedHint=You have published the library successfully.
+UserLibUploadSucceedHint=You have uploaded the library successfully.
+UserLibRemovePublishSucceedHint=You have unpublished the library successfully.
+UserLibRemoveSucceedHint=You have deleted the library successfully.
+UserLibCheckSyncInfoSucceedHint=Detecting sync information complete.
+UserLibSyncSucceedHint=Libraries have been synchronized successfully.
+UserLibGetAllCloudLibsSucceedHint=Get cloud libraries successfully.
+UserLibDownloadSucceedHint=Download complete.
+UserLibDOwnloadPublicLibSucceedHint=You have subscribed this library successfully.
+UserLibRemovePublicLibSucceedHint=You have unsubscribed this library successfully.
+UserLibGetShareUserListSucceedHint=Loading account list complete.
+UserLibAddShareUserSucceedHint=You have shared the library with this account successfully.
+UserLibRemoveShareUserSucceedHint=You have unshared the library with this account successfully.
+UserLibSyncHint=Synchronizing...
+UserLibInputUserEmailErrorHint=Invalid account. Please try again.
+UserLibInputUserEmailPrompt=Type the user's Mockplus account (email address) for sharing
+UserLibShare=Share
+UserLibShareRecently=Latest shared
+UserLibNoLibsHint=No libraries found.
+UsreLibGetPublicLibErrorHint=Failed to get libraries, please try again later.
+UserLibLibName=Name
+UserLibLibDescription=Description
+UserLibLibCreate=Create
+UserLibLibThumb=Thumbnail
+UserLibAddComToLibTitle=Add to library
+UserLibAddComToLib=Library name
+UserLibComName=Name
+UserLibNameErrorByFormatHint=The name cannot contain the following characters: . \ / : * ? " < > |
+
+;
+; 主界面区域
+;
+MainNewProject=New project
+MainOpenProject=Open project
+MainOpenCloudProject=Open cloud project
+MainOpenTeamProject=Open team project
+MainCloseProject=Close project
+MainRecentProject=Reopen
+MainShowSidebar=Show sidebar
+MainHideSidebar=Hide sidebar
+MainGuideLines=Ruler and guides
+MainUnlockGuideLine=Unlock guideline
+MainLockGuideLine=Lock guideline
+MainDeleteGuideLine=Delete guidelines
+MainDeleteAllGuideLine=Delete all guidelines 
+MainHideAllGuideLine=Hide all guidelines
+MainDisplayGuideLines=Display guidelines
+MainDeleteAllGuideLinePrompt=Sure to delete all guides?
+MainHideRuler=Hide ruler
+MainDisplayRuler=Display ruler
+MainRulerModePixel=Pixel
+MainRulerModePercent=Percentage
+MainGuideLineDragPrompt=Drag the button to add guidelines or directly drag guidelines from the ruler.
+
+MainIsExportingStatus=The image is being processed. Please reopen after the operation is done.
+MainLoginMockplusAlert=Please log in first, and then you are able to use Mockplus.
+MainSaveProjectQuery=Would you like to save the current project?
+MainAppInitiaError=Mockplus initialization failed.
+
+MainRotateToPortrait=Oops! Please make sure this is a blank page before rotating it to portrait.
+MainRotateToLandscape=Oops! Please make sure this is a blank page before rotating it to landscape.
+MainPreviewReady=Loading...
+MainPreviewBeforeSaveProject=Please save your file before previewing.
+MainPreviewStartError=Failed to preview project. The cause of the error is that you may quit preview abnormally last time\r\n\r\nPlease send us your feedback. Thank you! 
+MainProjectLastTimeSaveFailed=Your project was not closed properly last time. You can restore your project from backups.
+
+MainToggleShowLinkFlag=Show/hide component mark
+MainToggleShowOutsideCom=Show/hide component(s) outside of the group
+MainClassicIcon=Classic
+MainVectorIcon=Vector
+MainFontMissing=Required files are missing. Please reinstall Mockplus to fix the problem.
+MainFontError=Mockplus installation did not complete. Please restart your computer to complete the installation.
+MainNewWindow=New window
+	
+;
+; 启动页面
+;
+StartupMenuOpenDir=Open the folder where this project is
+StartupMenuRemoveProject=Remove
+StartupMenuClearAll=Clear all
+StartupHelpPopup=How to use Popup Panel?
+StartupHelpContentPanel=Toggle content with Stack Panel.
+StartupHelpVideoTutorial =View more videos...
+StartupNewFeature=How to use the team collaboration features?
+StartupGetStarted=10 minutes get started
+StartupWhatNew=What’s new in Mockplus 3?
+
+StartupOpenDemo=Open demo
+StartupMoreDemo = More demos...
+StartupAboutDemo=About this demo
+StartupTryDemo=Try Pro features with this demo
+
+StartupHelpFormatPainter =How to copy formatting in Mockplus?
+StartupTeamClickToGetHelp=Team collaboration supported. Click here to learn more!
+StartupTeamGetHelp=More collaborative, more effective.
+StartupLiteVideoTutorial = Video Tutorial
+		
+StartupOpenProjectFromLocal=Local project
+StartupOpenProjectFromExamples=Sample project
+StartupOpenCloudProject=Cloud project
+StartupOpenTeamProject=Team project
+	
+;
+; 新建项目
+;
+NewProjectMobile=Mobile phone
+NewProjectTabletpc=Tablet
+NewProjectDesktop=Desktop
+NewProjectWeb=Web
+NewProjectWhiteBoard=White board
+NewProjectCustom=Custom	
+NewProjectPageSize=Page size
+NewProjectScreenOrientation=Orientation
+NewProjectScreenLandscape=Landscape
+NewProjectOtherAppPageSize=Others
+
+
+;
+; 云项目部分
+;
+CloudProject=Cloud project
+CloudProjectSync=Sync
+MyCloudProjects=My cloud projects
+CloudProjectsVersion=Revision history
+CloudProjectShare=Share
+CloudProjectHelp=Help
+
+CloudGetProjectListError=Failed to fetch projects. Click to try again.
+CloudPublishMatchKey=View code
+CloudPublishProjectName=Name
+CloudPublishProjectPlatform=Type
+CloudPublishimmediately=Publish now
+CloudPublishLastUpdateDate=Last updated
+CloudUnRelease=Unpublish
+CloudShareURL=URL
+CloudCopyShareURL=Copy URL
+CloudPublishState=State
+CloudPublishDownloadURL=URL
+CloudPublishCompleted=Publish completed.
+CloudPublishError=Publishing failed.
+CloudPublishing=Uploading, please wait...
+CloudRemoveCloudProjectTips=After you delete this cloud project, it cannot be restored. Please make sure this project has been backed up to the local.\r\n\r\nPlease enter the "delete" to continue.
+CloudCopyURLSuccess=Copied to clipboard.
+CloudCheckout=Checkout
+CloudUploadSavePromptAlert=Save directly and don't prompt anymore
+CloudBeforeSyncNeedSaveProject=Do you want to save the changes?	
+CloudNoCloudData=Cloud data\r\n\r\n\r\nNone
+CloudSyncDetail=%s\r\n\r\nModified: %s\r\nNumber of pages : %d
+CloudCloudData=Cloud data
+CloudLocalData=Local data
+CloudAlarmBeforeDownload=Downloading new data from cloud will overwrite the local data.\r\nAre you sure you want to continue?
+CloudAlarmBeforeUpload=Uploading local data will overwrite data on the cloud. 
+CloudAlarmBeforeUploadContinue=Are you sure you want to continue?
+CloudConflictTitle=Conflict is detected.
+CloudUploadFinish=Upload completed.
+CloudDownloadFinish=Download completed.
+CloudPulling=Syncing...
+CloudPushing=Uploading...
+CloudSyncErrorByDisconnect=Unable to sync. Please check the network connection and try again.
+CloudMergerPatchError=Errors in merging patch packages into the current project.
+CloudProjectNoDiff=The cloud data is already up to date.
+CloudViewHelp=Help
+CloudSyncIsNewProjectAlert=Current project is a new one. Please save and then continue.
+CloudExtractPatchError=Errors in extraction of patch package.
+CloudFileIndexError=Errors in file index.
+CloudPublishHelp=Learn more...
+CloudSyncMessageState=Notifications
+CloudDownloadDataAlertByOpenProject=Automatically check whether the project needs to be synchronized after it's opened.
+CloudCloseProjectAlertPushData=Automatically check whether the project needs to be synchronized before it's closed.
+CloudProjectIsDownloaded=Downloaded. Open it now?
+CloudProjectIsTooLarge = The current project is overlarge. It takes a long time to upload and may be interrupted in this process. Continue anyway?
+CloudOnlineShareURL=Share URL	
+CloudCopyURL = Copy
+CloudViewProject = View project
+CloudURL = URL
+CloudHtmlOptions = HTML options
+CloudHtmlTitle=Settings
+CloudPublishAfterTips = If you prefer to view project on mobile, please install Mockplus mobile client and use the view code below.
+CloudPublishClickHereToCheckHelp = Click here for help
+CloudProjectUpgradeTips=The cloud project that you are going to publish is too old.\r\n\r\nIf you continue the publishing process, there might be compatibility issues when previewing in HTML mode. We suggest you downloading and opening this project, then upload and re-publish it.
+CloudDownloadAndOpen=Download and open
+CloudContinue=Continue
+CloudProjectName=Current project: %s
+
+CloudShareProjectName=Project name
+CloudSharePassword=Password
+CloudSharePasswordProtect=Password protect
+CloudSharePasswordFormatError=The password cannot contain spaces.
+
+CloudProjectComment=Comments
+CloudProjectViewHistory=View history
+CloudProjectDownloadFailedHint=Failed to download.
+CloudProjectRevisionTitle=Revision history
+CloudProjectVersion=Revision
+CloudProjectSyncTime=Date
+CloudProjectNoRevisionsHint=No revision.
+
+CloudBeforeSync=Before the could sync
+CloudBeforePublish=Before publishing to the cloud
+CloudBeforeYouShouldKnow=%s, you should know:
+CloudBefore23ProjectInfo=In this version (%s), all the project on the cloud will be named after the project file.
+CloudBeforeSeeMore=Please click here to learn more details and avoid loss of data!
+
+CloudYourProjectInfo=The system has detected the following information:
+CloudYourProjectFileName=The name of your project : %s
+CloudYourProjectRootName=The name of the project root node : %s
+CloudYourProjectNameCompareInfo=The two names here are different. For the sake of compatibility of your data, the project on the cloud will still be named after the root node "%s".
+
+;
+; 项目
+;
+ProjectExtensionError=Oops! Mockplus is incompatible with this file. Only the file with extension name" .%s" can be opened.
+ProjectEnterspriseExtensionError=请选择正确的Mockplus企业版项目文件\r\n\r\n文件后缀名：.%s 
+ProjectBetaExtensionError=Dear customer, you can only open file with the extension name ".%s" as you are using the beta version of Mockplus. \r\n1 Please duplicate your original project and change the extension name of the copy file to .mpbeta. \r\n2 Open this file. \r\nThanks a million for your support！
+ProjectIsOpenedError=%s is already open in another instance of Mockplus.
+ProjectReadFileError=Failed to read file!
+ProjectReadErrorByReadonly=File cannot be opened because it is read only. Please remove the read-only attribute and try again.
+ProjectReadErrorByPermission=File cannot be opened because you don't have enough permission.
+ProjectReadErrorByFileIsOccupied=File cannot be opened because it is in use by another program. 
+ProjectFileFormatInvalid=Sorry. We find that the project file format invalid and you could restore the file to a previous one among the history projects.
+ProjectLoadingProjectAlert=Loading project. Please wait...
+ProjectSaveErrorByPermission=File cannot be saved because you don't have permission.
+ProjectSaveErrorByIsBeingUsed=File cannot be saved because it is in use by another program. 
+ProjectSaveErrorByNotEnoughDiskSpace=File cannot be saved because there is not enough disk space.
+ProjectSaveErrorByOutOfMemory=File cannot be saved because there is not enough memory.
+ProjectSaveError=Sorry. Errors in saving project found.\r\nTo ensure that your data won't be seriously damaged, the design will continue after the software restarts.
+ProjectSaveAsValidateFileError=Error occurs when saved as project. Please try again.
+ProjectReloadError=Reload project exception occurred!
+ProjectReloadErrorByFailedBackup=Errors in project backup. Failed to refresh.
+ProjectCreateError=Failed to create project!
+ProjectFileNotFound="%s", File does not exist.	
+ProjectOpenErrorByHighVersion=This file is made by a higher version of Mockplus. Please upgrade your copy of Mockplus and re-open it.
+ProjectOpenErrorByConfigInfo=Error in configuration information. Please contact us for a solution.
+ProjectOpenErrorBySaveAs=Failed to load project. Please restart Mockplus and try again. 
+ProjectOpenErrorByExtractImage=Failed to load image. 
+ProjectUpdatingFileVersion=Upgrading the project file version. Please wait...
+ProjectUpdatingFileProgress=Upgrading data...
+ProjectUpdatingDone=Upgrade completed, opening project...
+ProjectSaving=Saving %s ...
+
+ProjectFragmentPlatformNotCompatible=Cannot import this page, because you are trying to import a "%s" page which is not compatible with the current project.
+ProjectFragmentPageSizeNotEqual=The imported page and current page are different in size. Are you sure you want to import?
+ProjectFragmentExportSuccess=Export completed.
+ProjectFragmentBeforePageChildAlert=The data will be imported under the selected page "%s". Are you sure you want to continue?
+ProjectFragmentBeforeFloderChildAlert=The data will be imported under the selected folder "%s". Are you sure you want to continue?
+
+ProjectMasterRemoverErrorByPageUsing=This master is used by the following page(s): \r\n
+ProjectSetMasterAction=Set as master
+ProjectUnmasterAction=Break away from master
+ProjectUpdateMasterPrompt=Are you sure to edit this master?
+ProjectUpdateMasterMessages=The master is using by the following page(s), modify it will also lead to these pages are modified: \r\n
+ProjectRemoverErrorTitle=Cannot remove this master.
+
+ProjectOpeningPage=Opening page. Please wait...
+ProjectRenamePageErrorByFormat=Page title can't contain signs like \ / : * ? " , < > |
+ProjectClassifyNewModuleError=Classification failed.
+ProjectCloneError=Project clone failed.
+ProjectDragCountMoreThanSizeAlert=The number of dragged nodes should be no more than %d.
+ProjectCloningPage=Cloning page. Please wait...
+ProjectClonePageError=Project clone failed.
+ProjectCopyingPage=Copying page. Please wait...
+ProjectMovingPage=Moving page. Please wait...
+ProjectMovePageError=Failed to paste.
+
+
+
+
+
+
+	
+ProjectNewPage=New page
+ProjectNewModule=New folder
+ProjectNewChildModule=New child folder
+ProjectNewChildPage=New child page
+ProjectInsertNewPage=Insert page
+ProjectClassifyNewModule=Classify pages into new folder
+ProjectMoveUp=Move up
+ProjectMoveDown=Move down
+ProjectPageTag=Page tag
+ProjectMoveTo=Move to
+ProjectCopyTo=Copy to
+ProjectCopySinglePage=Copy page without branch
+ProjectCloneSinglePage=Clone page without branch
+ProjectPageTrash=Recycle Bin	
+ProjectShowPageTrash=Show Recycle Bin
+ProjectHidePageTrash=Hide Recycle Bin
+ProjectIsClearAllTrash=Are your sure you want to remove all the pages in the Recycle Bin?
+
+;
+; 导出、导入项目||页面碎片
+;    
+FragmentExportFailure=Export error.
+FragmentImportFailure=Import error.
+FragmentControlExtension=(*.cx)|*.cx
+FragmentImportProject=Import page...
+FragmentExportProject=Export page...
+FragmentImportControl=Import component...
+FragmentExportControl=Export component...
+
+;
+; 项目备份
+;
+BackupNormalMode=Normal backup
+BackupProjectConvertMode=Convert backup
+BackupProjectAdjustment=Adjust backup
+BackupProjectSynchronize=Synchronize backup
+BackupCaption=Backups
+BackupLoadingProjects= Loading backups. Please wait...
+BackupNotBackupProject=Currently no backup projects.
+BackupCurrentProjectNotBackup=There is no backup of the current project. \r\nIf you want to view backups of all projects, please close this project, then choose the "Backups" option from the main menu of Mockplus.
+BackupRestoreProject=Restore
+BackupRestoreProjectAlert=Are you sure you want to restore project "%s" from backup?\r\nIt is backed up at %s.\r\n\r\nPlease input OK to confirm.
+BackupExportCompleteAlert=Exported successfully. Would you like to open this file now?
+BackupFileHasBeenDamaged=Backup files have been damaged.
+BackupModeType=Backup type:
+BackupSingleProjectInfo=%s backup. The earliest backup was created at %s.
+BackupMultiProjectInfo=%s backups. The earliest backup was created at %s.
+BackupErrorByNotEnoughDiskSpace=The project backup didn’t complete successfully, because there is not enough disk space.
+BackupErrorByOutOfMemory=The project backup didn’t complete successfully, because there is not enough memory.
+BackupClean=Clean
+BackupCleanCaption=Clear
+BackupNoNeedCleanProject=Currently no projects needs to be cleared.
+BackupLastBackupTime=Latest backup time: %s
+BackupDeletingBackupProjects=Deleting...
+BackupMoreThanSettingSizeAlert=Backup file is over %sM in size. Clear now?
+BackupNoLongerPromptCleaing=Do not prompt cleanup
+BackupWhatIsCleanBackup=Know more about cleanup backups
+BackupRestoreProjectBeforeSave=Save projects before restoring backup.
+BackupRestoreFailure=Errors in restoring historical projects.
+BackupRestoreFailureByFileNotFound=Restore projects [%s] failed\r\n\r\nbackup files: %s not found.
+
+;
+; 手机预览
+;
+WebServerIPAddress=IP address
+WebServerPreviewError=Fail to preview on mobile phone?
+WebServerUrlNotFound=Requested websites not found.
+WebServerCannotActive=Can't start the service...
+WebServerCannotRun=Network error, please check it...
+WebServerSelectIPAddress=There are multiple IP addresses on your computer, please select the appropriate one:
+WebServerScanQRCode=Make sure computer and mobile phone are connected to the same LAN.
+WebServerCreateFileError=Failed to create file.
+WebServerStartPropareData=Preparing data. Please wait...
+WebServerDownloadApp=Please update the mobile App to the latest version to use it normally
+
+;
+; 用户信息
+;
+UserLogoutErrorByMultiProcess=Currently multiple Mockplus processes are running. Please close other Mockplus processes and then continue logout.
+UserParseNetworkDataError=Data parser errors.
+UserRefreshUserInfoError=Failed to refresh user information.
+UserLoginFailed=Failed to login.
+UserNetworkError=Failed to connect to network.\r\n\r\nPlease check if the network is accessible. If you have installed firewall software, please close it and try again. 
+UserAbnormalAccountCaption=Abnormal account
+UserAbnormalAccountTitle=Sorry
+UserLogoutCloseApp=Abort registration will exit Mockplus. Proceed?
+UserNotLoginAppQuit=You are not logged in. Are you sure to exit Mockplus?
+UserLoginPleaseInputUsername=Please enter a valid email address
+UserLoginEmailAlreadyLogin=The account has logged in.
+UserLoginPleaseInputPassword=Password required.
+UserPleaseInputCorrectEmail=Invalid email address
+UserPasswordNotSame=Passwords do not match
+UserPasswordFormatError=Password should not contain characters like "()"
+UserLoginPasswordLengthError=The password must be at least 6 characters
+UserForgetPassword=Forget password
+UserRegisterAccount=Register account
+UserRegisterConfirmPassword=Confirm password
+UserRegisterTeamName=Company/Team
+UserRegisterWorkExprience=Work experience
+UserRegisterWorkExprienceList=None,6 months,1 year,2 years,3-5 years,More than 5 years
+UserRegisterPost=Job title
+UserRegisterPostList=Product manager,Project manager,Strategic manager,UX/UE designer,UI designer,Interaction designer,Programmer,Student,Teacher,Other
+UserRegisterWelcome=Welcome to register and be a member of Mockplus.
+UserRegisterAgreementFirst=I agree to the
+UserRegisterAgremmentSencod=Term of Use
+UserRegisterAgremmentThrid=and
+UserRegisterAgremmentFourth=Privacy Policy
+UserUpgradeCaption=Upgrade to Pro version
+UserUpgradeFuncInfo=This is a Premium feature and will be available after you upgrade to the Pro version. Thank you!
+UserUpgradeTrialFuncInfo=This is a Pro feature, but you can use it for free during the trial period.
+UserUpgradeBuy=Click here to buy now
+UserUpgradeBuyCompleted=If you have already purchased Mockplus, please click the button below：
+UserUpgradeBuyCompletedVerify=Upgrade Now
+UserUpgradePlsBuy=Sorry, please purchase Mockplus before upgrading to the Pro version.
+UserUpgradeUpdateUserInfo=Upgrading user information...
+UserUpgradeCloudSyscTip=The Cloud Sync allows you to work on the same prototype from home, office or another place.
+UserUpgradePublishTip=You can share this prototype with your co-works and clients by publishing it.
+UserUpgradeDemoTip=Try out the Demo on Mockplus startup window to test this Pro feature for free.
+UserUpgradeIsDone=Upgrade is done
+UserUpgradeCompleteSuccess=Thank you for your support. You have upgraded your Mockplus to the Pro version.
+UserUpgradeCompleteSupport=If you have any problem, please feel free contact us. Email: %s.
+UserUpgradeCompleteServeYou=__IgnoreDataValue__
+UserUpgradeCompleteThanks=Thank you
+UserUpgradeOpenDemoProject=Open the Demo project
+UserUpgradeTrialBuy=Click here to buy now...
+UserUpgradeTrialContinue=Try now
+UserUpgradeCloseAD=请升级到专业版本，谢谢你的支持！
+UserStatusBarTrialExpireTip=Your Pro trial has expired, but you can still use the free version.
+UserStatusBarTrialTip=Your Pro trial will expire in %d day.
+UserStatusBarTrialMoreDaysTip=Your Pro trial will expire in %d days.
+UserStatusBarProExpireTip=Your Mockplus Pro version has expired and been downgraded to a Free version.
+UserStatusBarBuyNow=Buy now
+UserApplyForTrialTipTitle=Congratulations
+UserApplyForTrialTipFunc=You have got a 7-day free trial of Mockplus Pro version!
+UserApplyForTrialTipDetail=Hi, \r\n\r\nMockplus has made some great improvements lately, we are offering a 7-day trial to you to do a test dirve. \r\n\r\n\r\nMockplus Team
+UserApplyForTrialTipOk=Start trial now
+UserBaseInfo=Profile
+UserSystemNotice=Notices
+UserInfo=User information
+UserOnlyUpgrade=Upgrade
+UserPersonalDetailInfo=Profile
+UserLogout=Log out
+UserRepay=Renew
+UserGroupBuying=Upgrade (for group buying users)
+UserFreeVersion=Free version
+UserProVersion=Professional version
+UserPerpetualVersion=Unlimited Perpetual License
+UserTrialVersion=Free trial
+UserRemainDays=%s days left
+UserRemainOneDay=%s day left
+UserExpairesDays=Tips: Your %s version will be expired in %d days. Please renew it.
+UserWelcomeCaption=Start
+UserWelcomHomeFirst=Thank you for choosing Mockplus.
+UserWelcomeHomeSecond=You need to have a Mockplus account before using it.
+UserWelcomeHomeThrid=Mockplus can work offline, letting you create and edit projects locally.
+UserWelcomeRegister=Register and start trial now
+UserWelcomeLogin=Log in
+UserWelcomeStartFirst=Welcome, %s!
+UserWelcomeStartSecond=Start your Mockplus journey now!
+UserWelcomeStartThrid=Share experience with others.
+UserWelcomeStartContent=Click here to add desktop Mockplus QQ group %s.
+
+;
+; 更新
+;
+UpdateInstallNowByDownloadCompleted=Download is done. Install this program now?
+UpdateInstallNowByStartup=Install Mockplus %s now?
+UpdateDownloadError=Sorry. File downloading failed. Please go to the official website to download it.
+UpdateCancelDownloadingAlert=Are you sure to cancel downloading?
+UpdateStartupAlertUpdate=Check for updates when Mockplus starts
+UpdateSkipThisVersion=Skip this update
+UpdateUpdateNow=Update now
+UpdateLaterUpdate=Remind me later
+UpdateDownloadOnHomePage=Download online
+UpdateFormUpdate=Update
+UpdateFormDate=Date
+UpdateMinorInfo=Mockplus is ready to update.
+UpdateMinorRecommandInfo=Recommendation:
+UpdateMinorIgnoreThisVersion=Ignore this update
+UpdateMinorIgnoreAlert=This is a very important update. We highly recommend that you update immediately. Are you sure you still want to ignore this update?
+UpdateMinorViewNotes=Release notes
+
+;
+; 预览
+;
+PreviewPhoneTypeSimulation=Simulation
+PreviewPhoneTypeWireframe=Wireframe
+PreviewZoomModeOriginalSize=Original size
+PreviewSwitchMoreOption=More options
+PreviewSwitchBaseOption=General options
+PreviewAlwayDisplayLink=Always show link
+PreviewDisplayRemarkFlag=Show remark flag
+PreviewDisplayLinkWhenMouseOver=Show link when mouse over
+PreviewDisplayRemarkWhenMouseOver=Show remark when mouse over
+PreviewDisplayMarkupCom=Show markup
+PreviewControlPanel=Control panel
+PreviewNoPreviousStep=No previous step
+PreviewNoNextStep=No next step
+PreviewPageNotExist=Target page doesn't exist. Please check if it has been deleted.
+PreviewCopyAllText=Copy all text
+PreviewCopySelText=Copy text (select by dragging a marquee on page)
+PreviewTextHasBeenCopied=Copied to clipboard.
+PreviewHintLinks=Highlight hotspots when clicking
+PreviewScrollComments=Markup roll with the page
+	
+;
+; 属性面板属性标题
+;
+PropNone=None
+PropEnable=Enabled
+PropInfoucs=In Focus
+PropDisable=Disabled
+PropSelected=Selected
+PropSelectedAndDisable=Selected and disabled
+PropStrokeDashSolid=Solid
+PropStrokeDashDash=Dashed
+PropStrokeDashDot=Dotted
+PropStrokeDashDashDot=Dash dot
+PropStrokeDashDashDotDot=Dash-Dot-Dot
+PropArrowShowModeStartArrow=Start arrow
+PropArrowShowModeEndArrow=End arrow
+PropProgressBarBar=Bar
+PropProgressBarStripe=Stripe
+PropCircle=Circle
+PropRectangle=Rectangle
+PropRoundRectangle=Round rectangle
+PropDiamond=Diamond
+PropStar=Star
+PropTriangle=Triangle
+PropParallelogram=Parallelogram
+PropIconLabelTextBottom=Bottom
+PropIconLabelTextLeft=Left
+PropIconLabelTextRight=Right
+PropRotationAngle0=0°
+PropRotationAngle90=90°
+PropRotationAngle180=180°
+PropRotationAngle270=270°
+PropButtonStatusNormal=Normal
+PropButtonStatusSelected=Selected
+PropButtonStatusFocused=In focus
+PropPopupCloseModeClickOut=Click external area
+PropPopupCloseModeClickAnyWhere=Click anywhere
+PropPageControlShapeSquare=Square
+PropPageControlShapeRound=Circle
+PropTabBarLeanStyle=Bevel
+PropTabBarSquareStyle=Square
+PropTabBarHoriDirection=Horizontal
+PropTabBarVertDirection=Vertical
+PropTreeNodeIconSquare=Button
+PropTreeNodeIconArrow=Arrow
+PropSliderShapeCircle=Circle
+PropSliderShapeIncisive=Angle
+PropSliderShapeSquare=Square
+PropAvatarShapStyleasRect=Square
+PropAvatarShapStyleasCircle=Circle
+PropAvatarColorStyleasNormal=Custom
+PropAvatarColorStyleasBlack=Black
+PropAvatarColorStyleasGray=Gray
+PropTextInputText=Text
+PropTextInputPassword=Password
+PropTextInputNumber=Number
+PropTriangleNormal=Normal
+PropTriangleRightAngle=Right angle
+PropTriangleEquilateral=Equilateral
+PropRepeatLayoutTile=Tile
+PropRepeaterLayoutVert=Vertical
+PropRepeaterLayoutHori=Horizontal
+
+;
+; 组件属性值
+;
+ComImageSliderIndicatorTypeRectangle=Rectangle
+ComImageSliderIndicatorTypeDot=Dot
+ComImageSliderIndicatorTypeNumber=Number
+ComImageSliderIndicatorDirectionTop=Top
+ComImageSliderIndicatorDirectionBottom=Bottom
+ComImageSliderIndicatorDirectionLeft=Left
+ComImageSliderIndicatorDirectionRight=Right
+ComDrawerSlideDirectionLeft=Swipe left
+ComDrawerSlideDirectionRight=Swipe right
+ComPopupAlignCenter=Center
+ComPopupAlignFit=Fit
+ComPopupAlignLeft=Left
+ComPopupAlignRight=Right
+ComPopupAlignTop=Top
+ComPopupAlignBottom=Bottom
+ComStackPanelSliderAniPush=Push
+ComStackPanelSliderAniSlide=Slide
+ComStackPanelSliderAniFade=Fade	
+ComImageFitModeFit=Fit
+ComImageFitModeFill=Fill
+ComImageFitModeStretch=Stretch
+ComImageFitModeTile=Tile
+ComImageFitModeCenter=Center
+ComImageAutoFit=Auto fit
+ComSymbolKeyboard=Symbol
+ComLetterKeyboard=Alphabet
+ComNumberKeyboard=Number
+ComContentPanelLayoutRelatively=Relatively
+ComContentPanelLayoutAbsolute=Absolutely	
+ComPopupPanelPostionPolicyFree=Free
+ComPopupPanelPositionPolicyIsIllegal = This option is unavailable for current project.
+ComPopupPanelPositionPolicyRelativeToScreen=Relative to the screen
+ComPopupPanelPositionPolicyRelativeToSource=Relative to the source
+ComPopupPanelPositionScreenTop=Top
+ComPopupPanelPositionScreenCenter=Middle
+ComPopupPanelPositionScreenBottom=Bottom
+ComPopupPanelPositionComTop=Top
+ComPopupPanelPositionComBottom=Bottom
+ComPopupPanelPositionComLeft=Left
+ComPopupPanelPositionComRight=Right	
+ComPageCircularReferences=Target page is circular used.
+ComImageSliderMoreThanMaxCountPrompt=You can only add up to %s images at a time. 
+ComImageSliderDbClickAddImages=Double click to add image
+ComScrollViewShrink=Shorten (Hold Ctrl to speed up)
+ComScrollViewExpand=Lengthen(Hold Ctrl speed up)
+ComStachPanelDeleteChildPanelTips=Delete child panel?
+ComInteractiveDragComForEdit=Drag and drop a component here.\r\nDouble click or press Esc to exit.
+ComInteractiveInfoDbClickToEdit=Double click here to edit
+ComTranstoPopupPanelWarning=Cannot convert current component to pop-up panel.
+ComSelectedOneTips = %s
+ComSelectedMultiTips =Components (%d)
+ComSelectedMultiSameTips = %s (%d)
+ComOutline = Outline
+ComRepeaterEditingPrompt=In repeater mode, all operations can't be restored untill the editing is ended.
+
+;
+; 事件
+;
+EventClick=OnClick
+EventRightClick=OnRightClick
+EventDoubleClick=OnDoubleClick
+EventMouseHover=MouseHover
+EventLongPress=OnLongClick
+EventLoad=OnLoad	
+EventCheckTrue=Check
+EventCheckFalse=Uncheck
+EventSwitchOn=On
+EventSwitchOff=Off
+
+;
+; 交互
+;
+InteractionTargetIsInvalid=Cannot link to %s
+InteractionMoveBy=By
+InteractionMoveTo=To
+InteractionMoveMode=Move
+InteractionMoveUp=Move Up
+InteractionMoveDown=Move Down
+InteractionMoveLeft=Move Left
+InteractionMoveRight=Move Right
+InteractionMovePlaceHori=1x Width
+InteractionMovePlaceVert=1x Height
+InteractionLinear=Linear 
+InteractionAccelerative=Accelerative
+InteractionBack=Back
+InteractionElastic=Elastic
+InteractionBounce=Bounce
+InteractionAutoReverse=Auto reverse
+InteractionLoop=Loop
+InteractionOut=Inverse
+InteractionTerminateLoopByClick=Click to close
+InteractionPopup=Popup
+InteractionClose=Close
+InteractionAutoRecovery=Auto recovery
+InteractionToggle=Toggle
+InteractionShow=Show
+InteractionHide=Hide
+InteractionZoomIn=Zoom in
+InteractionFadeIn=Fade in
+InteractionPopupUp=Popup-up
+InteractionPopupDown=Popup-down
+InteractionPopupLeft=Popup-left
+InteractionPopupRight=Popup-right
+InteractionExpandDown=Expand-down
+InteractionExpandRight=Expand-right
+InteractionVisibled=Visibility
+InteractionHideByClickOverBound=Hide when clicking external area
+InteractionSwitchTo=Switch to
+InteractionPopupState=State
+InteractionAniDuartion=Duration
+InteractionCenterModeTopLeft=Upper left corner
+InteractionCenterModeTopRigth=Upper right corner
+InteractionCenterModeBottomLeft=Bottom left corner
+InteractionCenterModeBottomRight=Bottom right corner
+InteractionCenterModeCenter=Center point
+InteractionCenterModeCustom=Custom
+InteractionResizeMode=Relatively
+InteractionResizeBy=By
+InteractionResizeTo=To
+InteractionResizeLockPoint=Anchor
+InteractionRotateMode=Relatively
+InteractionScaleMode=Relatively
+InteractionScaleBind =Maintain aspect ratio
+InteractionScaleTo=To
+InteractionScaleLockPoint=Anchor
+InteractionRotateTo=To
+InteractionRotateCenter=Center
+InteractionRotateDirection=Direction
+InteractionRotateClockwize=Clockwise
+InteractionRotateCounterClockwize=Counterclockwise
+InteractionScrollToTop=Top
+InteractionScrollToCenter=Center
+InteractionScrollToBottom=Bottom
+InteractionDragHereSetTarget=Drag-and-drop to set target
+InteractionAddTarget=Add target
+InteractionAddCommand=Add command
+InteractionDeleteCommand=Delete command
+InteractionDeleteAllCommand=Delete all commands
+InteractionDeleteTarget=Delete target
+InteractionDeleteAllTarget=Delete all targets
+InteractionWorkerParallel=Parallel
+InteractionInputDlgInfo=%s to execute the command of "%s".
+InteractionHowToTrigger=Trigger
+InteractionWantToDo=Command
+InteractionLinkToSelf=Linked to current component
+InteractionComTransToPopupByLinkDrag=You need to choose the components into the pop-up panel to take effect. Are you sure to continue?
+InteractionTargetLayerNotExist=The target layer does not exist.
+InteractionNotSuportAsTarget=Cannot set interaction for the component.
+InteractionNotSupportPopupPanelUnique=Component "%s" has been linked to this panel.
+InteractionNotSupportPopupPanelUniqueEntry=This panel has been linked to "%s" of "%s" component.
+
+;
+; 交互状态
+;
+StateSetState=Set interaction state
+StateWhatIsState=What is interaction state?
+StateMouseOver=MouseHover
+StateMouseDown=ClickOn
+	
+;
+; 打印
+;
+PrintCurrentPrinting=Printing now. Please try again after printing is done.
+PrintPaperSize=Paper size
+PrintAutoRatate=Auto rotation
+PrintCopies=Copies
+PrintPrintCurrentOpenPage=Current page
+PrintPages=Page name:
+PrintModules=Folder name:
+PrintProject=Project name:
+PrintSinglePage=%s page
+PrintMultiPages=%s pages
+PrintPromptPrepare=Preparing to print...
+PrintPromptPageCount=Total: %d pages
+PrintPromptPageProgress=Printing the %dth page...
+PrintCannotGetPrinterInfo=Mockplus cannot print. Please check whether the printer is turned on or connected.
+PrintSpoolerServiceError=Please start printing service first and then print.
+PrintError=If printing failed, please contact us.
+PrintImageScaleTitle=Image quality
+PrintLocationTitle=Position
+PrintPrintScaleTitle=Zoom
+
+;
+; 导出
+;
+ExportExportingTitle=Total: %s pages
+ExportExportingInfo=Exporting pages ..., %s
+ExportCompleteOpenFolder=Open folder after the exporting is done
+ExportCompleteOpenFile=Open file after the exporting is done
+ExportPictureCompleteOpenPicture=Automatically open the picture after export
+ExportSelectPathCation=Target folder
+ExportPageCount=%s pages exported.
+ExportIncludeOutComs=Include external components of the canvas
+ExportIncludeCommentComs=Include markups
+ExportPictureHidePage=Export hidden pages
+ExportPicturePageParentHidden=Export child pages of the hidden page
+ExportAppCation=Export to demo package
+ExportAppTip=The exported demo package can run independently without Mockplus or other software.
+ExportAppDemoCannotRunOnMac=Failed to open demo package on Mac OS X.
+ExportAppWinExe=Windows file (.exe)
+ExportAppMacApp=Mac file (.app)
+ExportAppProgress=Please wait while exporting your project...
+ExportAppBeforeSave=Please save the project before exporting.
+ExportAppSuccess=Your demo project has been successfully exported.
+ExportAppError=Export demo project failed.
+ExportAppTemplateFileMissing=Template file cannot be found. Please reinstall Mockplus and try again.
+ExportAppSaveFileError=Failed to save file. Please check if this file is opened in another program.
+ExportAppOnlySelectedAlert=If you only export the current selection, some content (eg. the target page) may be lost when previewing your project. Are you sure you want to continue?
+ExportPictureCaption=Export to images
+ExportPictureContainChildPage=Include child page
+ExportPictureOverwriteSameNameFile=Overwrite existing file of the same name
+ExportPictrueBackgroundTranspant=Transparent background
+ExportPictureZoomScale=Zoom level
+ExportPictureDeviceFrame=Device frame
+ExportPictureFormBorder=Form border
+ExportPictureAutoNumberFiles=Auto number files
+ExportPictureImageQuality=Image quality
+ExportPictureMarginMode=Margins style
+ExportPictureOnlyValidRect=Only content area
+ExportPictureProgressStart=Exporting projects. Please wait...
+ExportPictureError=Sorry, image exporting failed. Please contact us for a solution.
+ExportPictureErrorByFileOccupied=Sorry. Failed to export images, %s.
+ExportPictureDone=Image exporting is done.
+ExportHtml=Export to HTML
+ExportHtmlBackgroundTransparent=Transparent background
+ExportHtmlAfterPackZip=Pack files after the exporting is done
+ExportHtmlStartIcon=Launcher icon
+ExportHtmlFileExistToReplace=A file named "%s" already exists. 
+ExportHtmlFileExistToOverwrite=Files already exist. Do you want to overwrite?
+ExportHtmlIconFile=Icon file
+ExportHtmlPreviewOptions=Settings
+ExportHtmlDefaultPreviewOptions=Default preview options
+ExportHtmlShowControlPanel=Show control panel
+ExportHtmlShowPreviewTools=Show toolbar
+ExportHtmlShowiOSGuide=Show installation guide when opened in iOS
+ExportHtmlShowQRCode=Show QR Code
+ExportHtmlFailByByPermission=File cannot be overwritten because you don't have enough permission.
+ExportHtmlFailByByFileIsOccupied=Failed to overwrite file. Please check if this file is opened in another program.
+ExportHtmlShowAllPages=Show the hidden pages
+
+;
+; 导出项目树
+;
+ExportProjectTree=Export project tree
+ExportTreeCsvCanUseExcelOpen=Can open with Excel
+ExportTreeCannotExportWholeProjectToImage=Cannot export the whole project tree because it is too large.\r\n\r\nPlease select the current node of the project tree and try again.
+ExportTreeCannotExportToImage=Cannot export to image because it is too large.
+ExportTreeKind_TreeView=Tree View
+ExportTreeKind_MindMap=Mind Map
+ExportTreeKind_Text=Text
+ExportTreeKind_Html=HTML
+ExportTreeKind_Csv=CSV
+ExportTreeKind_MarkDown=MarkDown
+ExportTreeKind_XML=XML
+ExportTreeKind_MindManager=MindManager File
+
+;
+; 页面属性
+;
+PageProperty=Options
+PagePropertyStyle=Page style
+PagePropertyRemark=Page remark
+PagePropertyBackground=Back color
+PagePropertySize=Size
+PagePropertyFontSize=Font size
+PagePropertyFontFamily=Font family
+PagePropertyRevertDefaultColor=Restore to default color
+PagePropertyRevertDefaultFontSize=Restore to default font size
+PagePropertyRevertDefaultFontFamily=Restore to default font
+PagePropertyApplyAllTips=These changes will apply to all pages of this project. You cannot undo this action. \r\nAre you sure you want to continue?
+PagePropertyApplyWaring=This operation can not be undone. Proceed?
+PagePropertyClickHereEdit=Click here to edit
+PagePropertyApplyTo=Apply to: 
+PagePropertyCurrentPage=Current page
+PagePropertyAllPages=All pages
+
+; 
+; 错误信息
+;
+Feedback=Submit error
+FeedbackPrompt=Sorry, an error occurred.
+FeedbackScript=Please take a moment to tell us what did you do when this error occurs. \r\nWe'd love to hear your feedback so that we can continuously improve the Mockplus experience.
+FeedbackThanks=Your feedback has been submitted. We will fix it as soon as possible. \r\nThank you again for your support.
+FeedbackBad=Sorry. Your feedback has not been sent. Network access errors or others. \r\nPlease e-mail to %s and contact us.\r\nThank you.
+	
+; 
+; 导入图片
+;
+ImportDesignQueryCompressImage=Using too many large images will degrade the preview performance.\r\nWe recommend you to check "Compress image" option.\r\n\r\nStill want to uncheck?
+ImportDesignCompressImage=Compress image
+ImportDesignDownloadPicture=Download picture
+ImportDesignDownloadImageError=Failed to download image.
+ImportDesignActualRatio=Maintain aspect ratio
+ImportDesignOriginSize=Load image of the actual size
+ImportDesignEnterImageURL=Enter image URL
+
+; 
+; 设置界面
+;
+AppSettingConfirmRestoreDefault=Sure to restore the default settings?
+AppSettingRestoreDefaultConfig=Restore to default settings
+AppSettingUpdateTitle=Upgrade
+AppSettingAutoUpdate=Notify me when update to Mockplus is available
+AppSettingAutoBackup=Auto backup
+AppSettingShowPageThumb=Show page thumbnails when mouse hover on nodes of project tree. 
+AppSettingBackupTimeInternal=Backup every
+AppSettingBackupTime=minutes
+AppSettingBackupLabel1=Prompt me when backup files are greater than
+AppSettingBackupLabel2=MB
+AppSettingBackupOpenDir=Open backup folder
+AppSettingBackupImmediatelyClean=Clear now
+AppSettingAlignGuides=Snap to guide
+AppSettingAlignGrid=Snap to grid
+AppSettingShowGrid=Show grid
+AppSettingGridSize=Grid size
+AppSettingGridLineColor=Grid color
+AppSettingSnapLineColor=Guide color
+AppSettingGuideLineColor=Guide line color
+AppSettingPageBackgroundColor=Page back color
+AppSettingSelectComIntersect=Selected when marquee and component intersect
+AppSettingFreezeGroupBackgroundWay=Method for background freezing when editing a group
+AppSettingFreezeGroupTransparent=Transparent
+AppSettingFreezeGroupTranslucent=Translucent
+AppSettingFreezeGroupOpacity=Opacity
+AppSettingPasteAtOriginalPlace=Paste component at the original place
+AppSettingWorkShell=Shell of canvas
+AppSettingWorkShellBorderColor=Frame color
+AppSettingDefaultWorkShell=Use default settings
+AppSettingWorkshellColor=Color
+AppSettingPageOption=Edit
+AppSettingSystem=System
+AppSettingUseSingleLetterShortcut=Enable shortcut keys of creating component
+AppSettingButtonShortcut=Button: B
+AppSettingMuliTextShortcut=Text area: T
+AppSettingShapeShortcut=Shape: S
+AppSettingSingleTextShortcut=Label: A
+AppSettingIconShortcut=Icon: C
+AppSettingImageShortcut=Image: E
+AppSettingInputEditShortcut=Textbox: R
+AppSettingLineShortcut=Line: X
+AppSettingPreviewIsFullScreen=Keep the taskbar visible in fullscreen
+AppSettingPreviewIsPromptyFullScreen=You will enter full screen mode during the preview. If you want to see the taskbar, enable it in "Options - Preview".
+
+;
+; 杂项
+;
+OSVersionInvalid=Your operation system version is too old. \r\n\r\nPlease upgrade your operation system to Windows 7 or above to run Mockplus.
+LoadPageError=Sorry. Page data error founded.\r\nTo ensure that your data are complete, please contact us timely to help you restore your data.
+SetInteractionLinkHelper=How to use the link point?
+WechatID=WeChat ID
+WechatWatchword=Follow Mockplus & enjoy fun in prototyping.
+WechatMockplus=Official WeChat account
+AttentionSlack=Join Mockplus on Slack
+AttentionFacebook=Follow Mockplus on Facebook
+AttentionLinkedIn=Follow Mockplus on LinkedIn
+AttentionLaobu=Laobu's articles
+MobilePreviewDownloadAppTips=Mockplus mobile client is required to scan QR code to view your prototype.
+MobilePreviewNoDownloadAppTips=Don't want to download Mockplus mobile client? Please publish your prototype firstly, and then scan QR code in the browser. 
+MobilePreviewDownloadApp=Click here to download
+MobilePreviewNeedHelp=Need help?
+
+
+;
+; 网络代理
+;
+ProxySetting=Proxy setting
+ProxyType=Type
+ProxyAddress=Address
+ProxyProt=Port
+ProxyConnectTest=Connect test
+ProxyCaption=Network proxy
+ProxyNotUseProxy=Not use proxy
+ProxyUseHttpProxy=HTTP proxy
+ProxyUseSocksProxy=SOCKS 5 proxy
+ProxyConnectSuccess=Succeed in accessing to the proxy server.
+ProxyConnectError=Failed to access to the proxy server.
+
+
+; 
+; 组件名
+;
+ComTitleButton=Button
+ComTitleLabel=Label
+ComTitleTextArea=Text Area
+ComTitleShape=Shape
+ComTitleCircle=Circle
+ComTitleTriangle=Triangle
+ComTitleIcon=Icon
+ComTitleImage=Image
+ComTitleGif=Gif
+ComTitleTextInput=Text Input
+ComTitleLine=Line
+ComTitleHotSpot=Hotspot
+ComTitleHRule=H.Rule
+ComTitleVRule=V.Rule
+ComTitleCheckBox=Checkbox
+ComTitleCheckBoxGroup=Checkbox Group
+ComTitleLabelTextInput=Label Text Input
+ComTitleRadioButton=RadioButton
+ComTitleRadioButtonGroup=RadioButton Group
+ComTitleComboBox=ComboBox
+ComTitleCompositeComboBox=ComboBox
+ComTitleForm=Form 
+ComTitleList=List
+ComTitleButtonBar=Button Bar
+ComTitleMenu=Menu
+ComTitleMenuBar=Menu Bar
+ComTitleToolTip=Tooltip
+ComTitleNumericStepper=Num.Stepper
+ComTitleDateTimePicker=Date Chooser
+ComTitleColorPicker=Color Picker
+ComTitleIconButton=Icon Button
+ComTitleIconButton2=Icon Button
+ComTitleIconLabel=Icon and Label
+ComTitleIconLabel2=Icon and Label
+ComTitleIconButtonCommon=Common Icon Button
+ComTitleHSlider=H.Slider
+ComTitleVSlider=V.Slider
+ComTitleHSlider2=H.Slider
+ComTitleVSlider2=V.Slider
+ComTitleModalScreen=Modal Screen
+ComTitleProgressBar=Progress Bar
+ComTitleCircleProgressBar=Circular Progress Bar
+ComTitleSearch=Search Box
+ComTitleAlert=Alert Box
+ComTitleLinkBar=Link Bar
+ComTitleLink=Link
+ComTitleBreadCrumbs=Breadcrumbs
+ComTitleTree=Tree
+ComTitleSiteMap=Site Map
+ComTitleDataGrid=Text Table
+ComTitleBigTitle=Title
+ComTitleSubtitle=Subtitle
+ComTitleVSplitter=V.Splitter
+ComTitleHSplitter=H.Splitter
+ComTitleGroupBox=Group Box
+ComTitleHorizontalScrollBar=H.Scroll Bar
+ComTitleVerticalScrollbar=V.Scroll Bar
+ComTitlePageControl=Page Control
+ComTitlePageControlEx=Page Control
+ComTitleVerticalTabBar=V.Tabs
+ComTitleTab=Tabs Bar
+ComTitleAccordion=Accordion
+ComTitleTitleWindow=Window
+ComTitleBrowserWindow=Browser
+ComTitleIPhone=iPhone
+ComTitleIPad=iPad
+ComTitlePhone=Phone
+ComTitleTabletPC=TabletPC
+ComTitleIPhone2=iPhone
+ComTitleIPad2=iPad
+ComTitleAndroid=Phone
+ComTitleTabletPC2=TabletPC
+ComTitleTableView=Table View
+ComTitleTextField=Text Field
+ComTitleTabs=Tab Bar
+ComTitleSwitch=Android Switch
+ComTitleSwitchIOS=iOS Switch
+ComTitleSlider=Slider
+ComTitleScopeBar=Scope Bar
+ComTitleSpinner=Spinner
+ComTitleAlarmIcon=Alarm Icon
+ComTitleAlarmIcon2=Alarm Icon
+ComTitleTopActionBar=Action Bar
+ComTitleContexualActionBar=Contextual Action Bar
+ComTitleControlPopOver=Control PopOver
+ComTitleStatusBarAndroid=Android Status Bar
+ComTitleStatusBarIOS=iOS Status Bar
+ComTitleNavigationBar=Navigation Bar
+ComTitleKeyboard=Keyboard
+ComTitlePointyButton=Pointy Button
+ComTitleTimePicker=Time Picker
+ComTitleTimePicker2=Clock
+ComTitleLetterNavigation=Letter Navigation
+ComTitleAvatarMobile=Contact
+ComTitleQuickContact=Quick Contact
+ComTitleStickyNote=Sticky Note
+ComTitleArrow=Arrow
+ComTitleCallOut=Callout
+ComTitleHCurly=H.Curly Brace
+ComTitleVCurly=V.Curly Brace
+ComTitleGraffiti=Graffiti
+ComTitleRedX=Red X
+ComTitleScratchOut=Scratch-Out
+ComTitleQRCode=QR Code
+ComTitleCalendar=Calendar
+ComTitleWebcam=Avatar
+ComTitleVolumeSlider=Volume Slider
+ComTitleVideoPlayer=Video Player
+ComTitleMedia_Control=Audio Player
+ComTitleColumnChart=Chart: Column
+ComTitleBarChart=Chart: Bar
+ComTitleLineChart=Chart: Line
+ComTitlePieChart=Chart: Pie
+ComTitleMap=Street Map
+ComTitleCoverFlow=Cover Flow
+ComTitleEditToolbar=Edit Toolbar
+ComTitleFormattingToolbar=Formatting Toolbar
+ComTitleHelpButton=Help Button
+ComTitleQuickToolbar=Quick Toolbar
+ComTitlePopupMenu=Popup Menu
+ComTitleAlertWindow=Alert Window
+ComTitleSlidingDrawer=Sliding Drawer
+ComTitlePopupPanel=Popup Panel
+ComTitleImageCarousel=Image Carousel
+ComTitleContentPanel=Stack Panel
+ComTitleScrollView=Scroll Box
+ComTitlePanel=Panel
+ComTitleBarChartEx=Bar Chart
+ComTitleColumnChartEx=Column Chart
+ComTitleLineChartEx=Line Chart
+ComTitlePieChartEx=Pie Chart
+ComTitleAvatarEx2=Avatar
+ComTitleRepeater=Repeater
+ComTitleRepeaterItem=Cell
+ComTitleTimer=Timer
+ComTitleTable=Table
+
+;
+; 属性面中显示的属性名
+;
+PropTitleStyle=Style
+PropTitleVisible=Visible
+PropTitleCaption=Caption
+PropTitleTooltip=Tooltip
+PropTitleAnimation=Animation
+PropTitleAnimateAutoDelay=Auto delay
+PropTitleAnimateDuration=Duration
+PropTitleX=X
+PropTitleY=Y
+PropTitleWidth=W
+PropTitleHeight=H
+PropTitleValue=Value
+PropTitleAutoSize=Auto-size
+PropTitleSizeLocked=Fix size
+PropTitleSize=Size
+PropTitleIconSize=Icon size
+PropTitleColor=Color
+PropTitleForegroundColor=ForeColor
+PropTitleSelectedColor=Selected color
+PropTitleHoveredColor=Hovered color
+PropTitleShowHover=Show hover
+PropTitleBorderColor=Color
+PropTitleBorderVisible=Show border
+PropTitleText=Text
+PropTitleFontFamily=Font name
+PropTitleFontWeight=Font weight
+PropTitleFontSize=Font size
+PropTitleTextColor=Font color
+PropTitleTextAutoColor=Auto-match
+PropTitleSelectedIndex=Selection
+PropTitleSelectedTextColor=Selected text color
+PropTitleInterlaced=Interlace
+PropTitleInterlaceColor=Interlaced color
+PropTitleAutoFill=Auto fill
+PropTitleIsOpen=Open
+PropTitleEnabled=Enabled
+PropTitleHoriScrollBar=HorzScrollbar
+PropTitleHoriProgress=Horizontal value
+PropTitleVertScrollBar=VertScrollbar
+PropTitleVertProgress=Vertical value
+PropTitleStatus=Status
+PropTitleItemHeight=Item height
+PropTitleTabHeight=Tab height
+PropTitleTabWidth=Tab width
+PropTitleTextHoriAlign=Horizontal align
+PropTitleTextVertAlign=Vertical align
+PropTitleTextLineSpacingMultipe=Line spacing
+PropTitleFontStyle=Font style
+PropTitleShowHead=Show head
+PropTitleDirection=Direction
+PropTitleTextPadding=Text padding
+PropTitleTextWordWrap=WordWrap
+PropTitleShapeType=Shape
+PropTitleClipType=Cut
+PropTitleState=Status
+PropTitleFilterType=Filter
+PropTitleFilterValue=Filter value
+PropTitleProgressValue=Value
+PropTitleProgressTrackColor=Track color
+PropTitleProgressIndicatorColor=Indicator color
+PropTitleProgressStyle=Style
+PropTitleHCurlyDirection=Direction
+PropTitleTabPosition=Position
+PropTitleAlertButtonSelection=Select
+PropTitleIphoneFullScreen=Fullscreen
+PropTitleTransparent=Transparent
+PropTitlePhoneState=Status
+PropTitleActionBarShowBack=Back button
+PropTitleActionBarShowMenu=Menu button
+PropTitleRemark=Remarks
+PropTitleShapeTriangleDirection=Direction
+PropTitleShapeRectBorderMode=Lines
+PropTitleShape=Shape
+PropTitleTextDirection=Text position
+PropTitleShowDrag=Resize handle
+PropTitleShowMin=Minimize button
+PropTitleShowMax=Maximize button
+PropTitleShowClose=Close button
+PropTitleTitleBarHeight=Titlebar height
+PropTitleStatusBarHeight=Statusbar height
+PropTitleEnableInput=Enable input
+PropTitleMaxRowCount=Maximum number of rows
+PropTitleRadiusIsPercent=Percentage radius
+PropTitleArrowIsCurved=As straight line
+PropTitleArrowShowPoint=Show arrow
+PropTitleArrowTextBackgroundColor=Text background
+PropTitleArrowTextShowBorder=Text border
+PropTitleArrowTextPosCenter=Text center
+PropTitleIconButtonShowBorder=Show border
+PropTitleIconColor=Icon color
+PropTitleIconStyle=Symbol style
+PropTitleShowIcon=Show icon
+PropTitleShowText=Show text
+PropTitleUnfolded=Drop-Down
+PropTitleShowAlarm=Show Alarm
+PropTitleAlarmText=Alarm Text
+PropTitleAlarmColor=Alarm Color
+PropTitleRotationAngle=Rotation angle
+PropTitleShowHLine=HorzLine
+PropTitleShowVLine=VertLine
+PropTitleShowSeparator=Show separator
+PropTitleExternalUrl=External URL
+PropTitleCanHoriScroll=Horizontal scroll
+PropTitleCanVertScroll=Vertical scroll
+PropTitleShowScrollBars = Show scrollbars
+PropTitleIsCommentCom=As markup
+PropTitleFitMode=Fill mode
+PropTitleRadioDirection=Button direction
+PropTitleFlipVertical=Vertical flip
+PropTitleFlipHorizontal=Horizontal flip
+PropTitleAlpha=Opacity
+PropTitleGap=Gap
+PropTitleColumnGap=Column gap
+PropTitleRowGap=Row gap
+PropTitleColumnCount=Columns
+PropTitleIndicatorType=Indicator type
+PropTitleShowIndicator=Show indicator
+PropTitleIndicatorDirection=Indicator position
+PropTitleIndicatorPercentWidth=Indicator width(%)
+PropTitleIndicatorHeight=Indicator height
+PropTitleShowDivider=Show Divider
+PropTitleDividerPercentHeight=Divider height(%)
+PropTitleDividerColor=Divider Color
+PropTitleAniType=Animation effects
+PropTitlePlayInterval=Interval time
+PropTitleShowStickyNoteTabBar=Show head
+PropTitlePopupBackgroundFade=Background fade-in
+PropTitlePopupCloseByClickMode=Close policy
+PropTitlePopupCloseByKeyMode=Close
+PropTitleLayout=Layout
+PropTitlePopupPositionPolicy=Position mode
+PropTitlePopupPositionMargin=Offset
+PropTitlePopupLocalModeWhenScreen=Position
+PropTitlePopupLocalModeWhenSource=Position
+PropTitlePopupPopupDelay=Delay
+PropTitlePopupAutoPlay=Auto play
+PropTitleSlidingDrawerDirection=Slide direction
+PropTitlePopupIsModal=Modal
+PropTitleContentLayout=Content layout
+PropTitleKeyboardType=Keyboard
+PropTitleSwitchOnColor=On color
+PropTitleSwitchOffColor=Off color
+PropTitleTabStyle=Tab style
+PropTitleTabDirection=Tab direction
+PropTitleTabEdge=Margin
+PropTitleTabColor=Tab color
+PropTitleSplitterColor=Separator color
+PropTitleSliderTrackColor=TrackColor
+PropTitleSliderShapeType =Slider Type
+PropTitleFMaxOfX=MaxOfX
+PropTitleFMaxOfY=MaxOfY
+PropTitleComItemWidth=RectWidth
+PropTitleComRectHeight=RectHeight
+PropTitleIconVisible=Icon visible
+PropTitleAxisVisible=Coordinate axes
+PropTitleCheckBoxVisible=CheckBox visible
+PropTitleTreeLineVisible=TreeLine visible
+PropTitleIconColorStyle=Color
+PropTitleAvatarBorderColor=Background color
+PropTitleAvatarColor=Icon color
+PropTitleAvatarStyle=Icon
+PropTitleAvatarShapeStyle=Style
+PropTitleSliderColor=Slider color
+PropTitleDataGridHeaderHeight=Header height
+PropTitleHeaderColor=Header color
+PropTitleHeaderTextColor=Header text color
+PropTitleTextInputPlaceHolder=Placeholder text
+PropTitleTextInputMask=Input mask
+PropTitleTriangleType=Triangle type
+PropTitleInterval=Wait time
+PropTitleSeparatorThickness=Separator thickness 
+PropTitleSeparatorMargin=Separator margin 
+PropTitleSeparatorDashMode=Separator type
+PropTitleCellWidth=Cell width
+PropTitleCellHeight=Cell height
+PropTitleCellLineVisible=Show cell border
+PropTitleCellLineColor=Color
+PropTitleCellLineDashMode=Style
+PropTitleCellLineWidth=Thickness
+PropTitleUseShadowEffect=阴影
+PropTitleShadowColor=颜色
+PropTitleShadowOffset=偏移量
+PropTitleShadowAngle=角度
+PropTitleShadowBlur=模糊度
+
+PropGroupIdBase=Basic
+PropGroupIdExpand=Extension
+PropGroupIdText=Text
+PropGroupIdInteraction=Interactions
+PropGroupIdDescription=Description
+PropGroupIdFill=Fill
+PropGroupIdBorder=Border
+PropGroupIdSelection=Selection
+PropGroupShadow=阴影
+
+;
+; 组件初始化数据
+;
+ComDefaultTextAccordion=Item 1\r\nItem2 \r\n- Sub-Item2.1\r\n- Sub-Item2.2\r\nItem3\r\nItem4
+ComDefaultTextBreadCrumbs=Home,Software,Download,Mockplus
+ComDefaultTextTitle=Title
+ComDefaultTextButton=OK
+ComDefaultTextAlert=Alert\r\nAre you sure you want to exit? \r\nNo,Yes
+ComDefaultTextCheckBox=Checkbox
+ComDefaultTextButtonBar=Button1,Button2,Button3
+ComDefaultTextIconLabel=Text
+ComDefaultTextRadioButtonGroup=RadioButton1\r\nRadioButton2\r\nRadioButton3
+ComDefaultTextContextBar=1 selected
+ComDefaultTextHcurly=Content
+ComDefaultTextLinkBar=Home,Download, Contact us
+ComDefaultTextList=Item1\r\nItem2\r\nItem3\r\nItem4
+ComDefaultTextMenu=New,Ctrl+N\r\nOpen,Ctrl+O\r\nSave As >\r\n---\r\no Item1\r\nItem2\r\n=\r\nx Toggle Item\r\n-Disabled Item-\r\nClose
+ComDefaultTextMenuBar=File, Edit, View, Help
+ComDefaultTextTitleWindow=Window
+ComDefaultTextTree=[-]Unfold folder1\r\n.[-]Folder1\r\n..File1\r\n..File2\r\n.File1\r\n.File2\r\n.[+]Folded folder2\r\n..File1
+ComDefaultTextVerticaltab=Tab1,Tab2,Tab3,Tab4
+ComDefaultTextLabelTextInput=Name, Matt
+ComDefaultTextSiteMap=Home\r\n- Product\r\n-- Product1\r\n--Product2\r\n- About us\rCompany\r\n- Support\r\n- Blog
+ComDefaultTextSiteMapErrorPrompt=Opps! The node configuration of sitemap is incorrect, please re-configure it like this way: \r\n\r\nHome\r\n-Company\r\n-Product...
+ComDefaultTextSearch=Search
+ComDefaultTextCheckBoxGroup=[]Checkbox1\r\n[x]Checkbox2\r\n-[]Checkbox3-
+ComDefaultTextAndroidTabs=Item1,Item2,Item3,Item4
+ComDefaultTextTabBar=One, Two, Three, Four
+ComDefaultTextScopeBar=Label1, Label2, Label3
+ComDefaultTextTableView=Folder1 ->\r\nFolder2 -p\r\nFolder3 -n\r\nFolder4 \r\nFolder5 -+\r\nFolder6 -f\r\nFolder7\r\nFolder8 -r\r\nFolder9 -v
+ComDefaultTextBrowser=Mockplus
+ComDefaultTextControlPopOver=Select,select all,paste
+ComDefaultTextToolTip=Tooltip
+ComDefaultTextSubTitle=Subtitle
+ComDefaultTextTextInput=Text Input
+ComDefaultTextDoubleToEdit=Double click to edit
+ComDefaultTextTextFiled=Text Field
+ComDefaultTextPointyButton=Button
+ComDefaultTextForm=Name, John Smith,50\r\nSex,male,female,(o)\r\nEducation, Junior college,v80\r\nAddress, Colombia, United States\r\nHobbies, basketball, swimming and others, []\r\nIntroduction,=
+ComDefaultTextTopActionBarBack=Back
+ComDefaultTextTopActionBarMenu=Menu
+ComDefaultTextTextArea=This is a multi-line text,\r\nYou could input multiple lines of words
+ComDefaultTextMultiLineButton=Multiline text \r\nbutton
+ComDefaultTextDataGrid=Name ^, Age ^v, Date of Birth v\r\nJohn Smith, 43, 01/01/72, [x]\r\nAlexsa Black, 28, 12/06/87, [x]\r\nTim Degner, 25, 09/01/64, [x]\r\nEric Hoffman, :), 11/05/71, [x]\r\nTim Boelaars, :), 06/25/83, []\r\n{4,2R,4R,2C}
+ComDefaultTextTagCloud=Prototype Protograph Protograph tool {color:#FF0000}Mockplus{color} Prototype design sketch UI design Mockup Sketch Prototype
+ComDefaultTextPie= 25,orange\r\n5,cyan\r\n30,pink\r\n40,#FFCE55
+ComDefaultTextPieIsSketch=25,gray\r\n5,lightgrey\r\n30,silver\r\n45,lightgrey
+ComDefaultTextVRect=40,orange\r\n70,cyan\r\n100,pink\r\n60,#FFCE55
+ComDefaultTextVRectIsSketch=40,gray\r\n70,lightgrey\r\n100,silver\r\n60,lightgrey
+ComDefaultTextLine=20,70,-,60,100,yellow\r\n40,45,80,50,60,cyan\r\n-,10,30,35,50,pink
+ComDefaultTextLineIsSketch=20,70,-,60,100,gray\r\n40,45,80,50,60,lightgrey\r\n-,10,30,35,50,lightgrey
+ComDefaultTextTable=Column 1,Column 2,Column 3
+ComInteractiveTextTable=Row %d
+
+;
+; 手机端字符串资源
+;
+MobileLoading=Loading...
+MobileApplicationError=Sorry, an unexpected error occurred.
+MobileNetworkError=Network error! Please check your network connection try again.
+MobileUpdateTitle=Update
+MobileUpdateDownloading=Downloading updates...
+MobileHelpIdCode=How to Get View Code of Project?
+MobileHelpId=If you are the designer of this project, please get the view code by publishing your project to the cloud with desktop Mockplus.\r\nIf not, please ask for view code from the project designer. 
+MobileHelpOpenProject=Failed to Open Project?
+MobileHelpOpenProjectContent=There is a compatibility issue. To solve this problem, please "Open desktop Mockplus > Download your cloud project > Save the downloaded project > Publish it to the cloud > Reopen it on mobile device".
+MobileOpenProjectNotCompatible=To solve this issue, please open desktop Mockplus > download this project from cloud > save and republish the project to the cloud > reopen it on mobile device.
+MobileHelpMore=Need Further Assistance?
+MobileMockplusSupport=Mockplus Official Website
+
+MobileInputSetting=Settings
+MobileProjectTitle=Projects
+MobileCloudProject=Cloud
+MobileCloudProjectGetError=Sorry, failed to load cloud project!
+MobileLocalProjectTitle=Downloaded
+MobileLocalNoProject=No project data detected.
+MobileLocalUnsupportedVersionInfo=Only support project created by Mockplus %s. Please re-publish the project to cloud with desktop Mockplus.
+MobileLocalDownloadFileError=Failed to access project data!
+
+MobileLoginTitle=Log In
+MobileLoginPasswordNotMatchAccount=Username and password don't match.
+MobileLoginPleaseWait=Logging In...
+
+
+MobileInputProjectID=Please enter view code and try again. 
+MobileInputPreviewCode=Preview Prototype with View Code
+MobileInputScanQRCode=Scan QR Code to Preview Prototype
+MobileInputScanMyPrototype=View Projects
+MobileInputScanQRCodeNetworkError=Network error. Please close firewall and make sure your mobile phone and computer are connected to the same LAN segment.
+MobileScanQRCodeAppVersionNotMatch=Desktop and mobile versions don't match. Please make sure they have the same version before scanning QR code to preview.
+MobileInputNotFoundPreviewID=Failed to load project, please check your view code.
+MobileInputPreviewCodeTitle=Enter View Code
+
+MobileDownloadReady=Ready to download...
+MobileDownloadClickToStart=Download
+MobileDownloadPercent=Downloading %d
+MobileDownloadComplete=Open
+MobileDownloadFailedTryAgain=Failed to download, click here to try again.
+MobileDownloadUnsupportedVersion=Unsupported project
+MobileDownloadUnsupportedVersionInfo=Only support project created by Mockplus %s. Please re-publish the project to cloud with desktop Mockplus.
+MobileDownloadIncompatibleProject=Update to the latest version for previewing
+MobileProjectShare=Share
+
+MobileDownloadUnsupportedPlatform=Unsupported project
+MobileDownloadUnsupportedPlatformInfo=Only mobile and tablet project supported.
+
+MobileMainPreviewLoadingProject=Loading...
+MobileMainPreviewFailedOpenProject=Sorry, failed to open project.
+MobileMainPreviewIncludeMaxImageAlert=This prototype includes large image which might affect the performance when previewing on mobile phone.
+MobileSettingSwitchPromptChinese=You will change Mockplus to the English edition.\r\nIf you make this change, please re-login with a English account registered on mockplus.com.\r\n\r\nAre you sure you want to continue?
+MobileSettingSwitchPromptEnglish=You will change Mockplus to the Chinese edition.\r\nIf you make this change, please re-login with a Chinese account registered on mockplus.cn.\r\n\r\nAre you sure you want to continue?
+MobileSettingNoLoginAccount=Sign in
+MobileSettingInterface=Interface
+MobileSettingShowAssistiveBall=Show assistive ball
+MobileSettingInfo= Mockplus, Prototype Faster. Smarter. Easier.
+
+MedalSeniorUser=__IgnoreDataValue__
+MedalTestExperts=__IgnoreDataValue__
+ActivityTips=__IgnoreDataValue__
+Honor=__IgnoreDataValue__
+
+
+EnterpriseTeamProjectList= My team projects
+EnterpriseProjectOwner=Creator
+
+;
+; 修改密码
+;
+EnterpriseUserResetPassword=Change password
+EnterpriseUserOldPassword=Old password
+EnterpriseUserNewPassword=New password
+EnterpriseUserConfirmPassword=Confirm password
+EnterpriseUserPleaseInputOldPassword=The old password is empty
+EnterpriseUserOldPasswordError=The old password mistake
+EnterpriseUserPleaseInputNewPassword=The new password is empty
+EnterpriseUserNewPasswordFormatError=The new password mistake
+EnterpriseUserConfirmError=Confirm password is not consistent
+
+;// 同步窗口 FormEnterpriseSyncDlg
+EnterpriseSyncConflictMineHint=If your modifications are confirmed, modifications by others will be ignored.\r\nPlease enter “mine” to continue:
+EnterpriseSyncConflictTheirHint=If modifications by others are confirmed, your modifications will be ignored.\r\nPlease enter “theirs” to continue:
+EnterpriseSyncTitle=Sync
+EnterpriseSyncClickSyncToContinue=Click “Sync” to continue
+EnterpriseSyncPagesHavaConflictHint=Conflicts exist in the pages below:
+EnterpriseSyncHowToSolveConflictHint=How do you resolve the conflicts above?
+EnterpriseSyncConflictUseMine=Use mine
+EnterpriseSyncConflictUseTheirs=Use theirs
+EnterpriseSyncInputComments=Please enter description
+EnterpriseSync=Sync
+EnterpriseSyncCurrentProject=Current project：%s
+EnterpriseSyncViewLastestVersion=Check the latest server revision
+
+;// 项目协作成员窗口 FormEnterpriseContributorsDlg
+EnterpriseProjectContributorsInputUserEmailErrorHint=Please enter a correct email account.
+EnterpriseProjectContributorsAddUserFailedHint=Failed to add a member.
+EnterpriseProjectContributorsRemove=Remove
+EnterpriseProjectContributorsInputUserEmailPrompt=Type the user's Mockplus account (email address)
+EnterpriseProjectContributorsAdd=Add members
+EnterpriseProjectContributorsRecentAdd=Latest added
+EnterpriseProjectContributorsAuthor=Creator
+EnterpriseProjectContributorsMemberHint=%d member(s) in total.
+EnterpriseProjectContributorsTitle=Project member management-%s
+
+EnterpriseProjectCanNotEdit=The current page can't be edited.
+EnterpriseProjectClickToLockEdit=Click here to edit.
+
+;// 项目管理器协作部分 UProjectEnterprise.Helper
+EnterpriseProjectHelperPageStartEditHint=One page can only be edited by one team member at a time.\r\nYou have got the editing permission now. This page is no longer editable for others.
+EnterpriseProjectHelperPageEndEditHint=One page can only be edited by one team member at a time.\r\nYou have ended editing now. This page is editable for others now.
+EnterpriseProjectHelperProjectUpdateToTeamFileHint=Do you need to upgrade this project into a team project?\r\nThe personal project file will remain for normal use after the upgrade.
+EnterpriseProjectHelperProjectUpdatingHint=Upgrading into team project...
+EnterpriseProjectHelperProjectUpdateSucceedHint=This project has been upgraded into a team project successfully.
+EnterpriseProjectHelperKnowMore=Learn more about team collaboration features
+EnterpriseProjectClosePushQuery=The project has not been uploaded yet. Upload it now?
+EnterpriseProjectCloseSyncQuery=The project is modified. Sync it now?
+
+;// 项目邀请成员窗口
+EnterpriseProjectAddContributorTitle=Latest added
+EnterpriseProjectAddContributorAdd=Invite
+EnterpriseProjectNoContributorToAddHint=There are no members to add currently.
+
+;// Action相关内容
+EnterpriseActionProjectNew=New team project
+EnterpriseActionProjectSync=Sync...
+EnterpriseActionRevision=History revision...
+EnterpriseActionShare=Publish and share...
+EnterpriseActionTeamManager=团队管理...（未使用）
+EnterpriseActionTeamProjects=My team projects...
+EnterpriseActionProjectContributorManager=Manage team project members...
+EnterpriseActionProjectExportPersionalFile=Export to MP file
+EnterpriseActionUpdateToTeamFile=Upgrade to team project...
+EnterpriseActionCloudHot=Cloud
+EnterpriseActionLockPage=Get editing permission
+EnterpriseActionUnLockPage=End editing
+EnterpriseActionUnLockAllPages=End editing of all pages
+EnterpriseActionPageBack=Back
+EnterpriseActionPageForward=Forward
+
+;// 项目同步相关提示
+EnterpriseProjectSyncFailedHint=Sync failed.
+EnterpriseProjectSyncSucceedHint=Sync successfully.
+EnterpriseProjectPushSucceedHint=Upload successfully.
+EnterpriseProjectCheckHint=Checking synchronization information...
+EnterpriseProjectPublishHint=Publishing...
+EnterpriseProjectPushHint=Uploading project file...
+EnterpriseProjectSyncHint=Syncing...
+EnterpriseProjectGetLockInfoFailedHint=Failed to get the editing permission.
+EnterpriseProjectLockPageFailedHint=Failed to request for editing.
+EnterpriseProjectUnLockPageFailedHint=Failed to end editing.
+EnterpriseProjectCheckSyncInfoFailedHint=Failed to detect sync information.
+EnterpriseProjectGetPagesFailedHint=Failed to get the update package for merging the file.
+EnterpriseProjectDownloadFailedHint=Failed to download file.
+EnterpriseProjectUploadFailedHint=Failed to upload file.
+EnterpriseProjectMergeFailedHint=Failed to merge file.
+
+;// 协作项目项目树相关提示
+EnterpriseProjectTreePageModifiedTime=Modification date: %s
+EnterpriseProjectTreeCannotLockGroupByChildLockHint=This folder is temporarily not editable for a child folder/page is being edited.
+EnterpriseProjectTreeCannotLockPageByChildLockHint=This page is temporarily not editable for a child folder/page is being edited.
+EnterpriseProjectTreeCannotLockByLockHint=Unable to get the editing permission for this page is being edited by others.
+EnterpriseProjectTreeCannotLockByNewVersionHint=A new version is detected. Please sync the project before editing.
+EnterpriseProjectTreeCannotLockBySyncHint=Please sync the project before any operation.
+EnterpriseProjectTreePleaseInputNewProjectName=Please enter a new name
+EnterpriseProjectTreeProjectRename=Rename
+EnterpriseProjectTreeRenameInvalid=The name cannot contain the following characters: \ / : * ? " < > |, neither does it begin or end with a period.
+EnterpriseProjectTreeCannotMoveByLock=Unable to move this page. Please get the editing permission of it first.
+EnterpriseProjectTreeCannotMoveByParentLock=Unable to move this page. Please get the editing permission of it's parent first.
+EnterpriseProjectTreeLastEditor=Last editor: %s
+EnterpriseProjectTreeClickToLock=None.\r\nClick to get the editing permission.
+EnterpriseProjectTreeClickToUnLock=Click to end editing
+EnterpriseProjectTreeClickToLockByLocked=%s is editing this page.\r\nClick to get the editing permission.
+
+EnterpriseSyncProjectPlatform=Type
+EnterpriseProjectContributors=Manage team project members
+EnterpriseContributors=Member
+EnterpriseProjectHistoryRevert=Export to MP file
+EnterpriseProjectOpen=Open
+EnterpriseProjectName=Project name
+EnterpriseProjectRevertHistoryContiue=Are you sure to export to MP file?
+EnterpriseProjectDontDeleteWhenOpen=Unable to delete a project being edited.
+EnterpriseProjectIsNotSync=Unsynchronized project
+EnterpriseProjectLocalDeleteQuery=This project cannot be restored if deleted.\r\n\r\nPlease enter "delete" to continue
+EnterpriseProjectServerDeleteQuery=This team project cannot be restored if deleted. Please make sure it has been backed up to local.\r\n\r\nPlease enter "delete" to continue
+
+EnterpriseModifyContributorsName=Modify name
+EnterpriseContributorsEmail=Email
+EnterpriseContributorsName=Name
+EnterpriseContributorsName=Name
+
+;
+; 注册
+;
+RegisterTitle=Welcome
+RegisterActivationTitle=Please enter an activation code to activate Mockplus:
+RegisterActivation=Activate
+RegisterActivationSuccess=Activated successfully.
+RegisterActivationAbandon=You will exit Mockplus if abandoning activation. Exit?
+RegisterActivationHasExpired=Sorry, your Mockplus version has expired. Please reactivate.
+RegisterWelcomeTitle=Welcome to Mockplus!
+
+;
+;审阅
+;
+EnterpriseProjectNotifyReview=Notify
+EnterpriseReviewContent=Notification of content
+EnterpriseNotifyEmails=Send prototype update notification to the following people (one per row):
+EnterpriseReviewURL=View address: %s
+EnterpriseReviewPassword=View password: %s
+EnterpriseReviewTitle=The prototype "%s" has been updated. Please review.
+EnterpriseSharePasswordError=The password must contain no spaces and be at most 50 characters
+EnterpriseReviewSend=Send
+EnterpriseReviewNodifySuccess=Sent successfully
+
+RequestConnectTimeOut=Connection timeout
+RequestUnKownError=Unknown error
+RequestURLNotFound=The requested URL was not found
+RequestFileDownloadError=File download failed
+
+
+MockplusVersionPersanol=Professional version
+
+ProjectTypeTeam=Team project
+ProjectTypePersonal=Personal project
+
+;
+; 替换
+;
+ReplaceCaption=Replace text
+ReplaceFindTitle=Find what:
+ReplaceReplaceToTitle=Replace with:
+ReplaceScopeCurrentPage=Current page
+ReplaceScopeAllPages=All pages
+ReplaceScopeHaveEditorAllPages=All editable pages
+ReplaceCurrentPageResultPrompt=Made %d replacements.
+ReplaceAllPagesResultPromptChinese=Made %d replacement(s) in %d page(s) or master(s).
+ReplaceAllPagesResultPromptEnglish=Made %d replacement(s) in %d page(s) or master(s).
+ReplaceCurrentPageLockEditorAlert=The replacement can not be completed. Please gain the editing permission of the current page first.
+ReplaceUndoAlert=Please note that the replacement can not be undone.
+Replace=Replace
+ReplaceNotFoundFindText=Cannot find the text you're searching for.
+
+GifMaxFileSizeHint=GIF file can not exceed 500k.
+GifMaxFrameCountHint=GIF image can not exceed 50 frames.
+GifLoadFileFailedHint=Failed to load the image.
+
+EnterpriseTeam=Team collaboration
+CloseAD=Close
+
+ComImageLoadFailed=Failed to load the image.
+
+ProjectShowOrHideNode=Show hidden nodes
+ProjectPageClickToShow=Show current page
+ProjectPageClickToHide=Hide current page
+ProjectPageShowNumber=Show page numbers
+ProjectPageHideNumber=Hide page numbers
+ProjectExportPictureShowNumber=In order of hierarchy, such as 1.8.3
+ProjectCopyRevisionURL=Copy the URL
+TemplatePlatform=Platform
+Template=Template
+TemplateEmpty=Blank
+TemplateSearch=Search
+TemplateNoTemplateHint=The template you are looking for could not be found.
+TemplateCreateFromTemplate=Select template
+TemplateNoSampleHint=The demo project you are looking for could not be found.
+TemplateSampleCaption=Open demo project
+TemplateCreate=Create
+TemplateOpen=Open
+TemplateDownload=Download
+TemplatePreview=Preview
+TemplateUpload=Upload
+TemplateUploadProjectAsTemplate=Upload current project as a template
+TemplateUploadProjectAsSample=Upload current project as a demo project
+TemplateUploadTemplate=Upload templates
+TemplateUploadSample=Upload demo projects
+TemplateCategory=Category
+TemplateDescription=Description
+TemplateNewPage=Create page from templates
+TemplateAuthor=Author
+TemplateName=Name
+TemplatePageLayout=Page layout
+TemplatePageCount=Page count
+TemplateCategoryAll=All
+TemplateUploadFailedHint=Failed to upload.
+TemplateDownloadProjectFailedHint=Failed to download the project.
+TemplateDownloadPageFailedHint=Failed to download the page.
+TemplateGetCategoryFailedHint=Failed to get the category information.
+TemplateGetPageListFailedHint=Failed to get the page list.
+TemplateGetProjectListFailedHint=Failed to get the project list.
+
+;
+; PageFlowChart 
+;
+FlowChartTitle=UI flow  
+FlowChartPrepareData=Preparing the data of the UI flow. Please wait...
+FlowChartExportingImage=Exporting the UI flow. Please wait...
+FlowChartExportFailureByMemory=Failed to export the flow. Please restart Mockplus and try again.
+FlowChartExportFailureByBeingUseed=Failed to export the flow, for the file is in use by another program. 
+FlowChartExportFailure=Failed to export the flow.
+FlowChartConnectLineTitle=Connecting lines
+FlowChartShowAllLinkLine=All
+FlowChartShowCurrentPageLinkLine=Current page
+FlowChartNotShowLinkLink=None
+
+FlowChartShowDeviceShell=Device frame
+FlowChartLinePageWrap=Auto-wrap
+FlowChartLinePageCount=Number of pages per row
+FlowChartScaleZoomIn=Zoom in
+FlowChartScaleZoomOut=Zoom out
+FlowChartExportImageTitle=Export image
+FlowChartBackgroundText=Background and connecting line
+FlowChartBackgroundColor=Background
+FlowChartLinkLineColor=connecting line
+FlowChartSelectLinkLineColor=Current connecting line
+FlowChartDeviceShell=Device frame
+FlowChartDeviceShellBackgroundColor=Background
+FlowChartDeviceShellScreenBorderColor=Screen border
+FlowChartDeviceShellScreenBorderVisible=Show screen border
+FlowChartPageNumber=Page number
+FlowChartOnlyShowSelectPageLinkLine=When a page is selected, only the connecting line related to the page can be showed
+FlowChartExportImageBackgrounTransparent=The background of the exported image is transparent
+FlowChartExportImageShowLinkLine=Show connecting line of the exported image
+FlowChartShowHidePage=Show hidden pages
+FlowChartShowPageParentHidden=Show child page of the hidden page
+
+RepeaterSeparator=Separate
+RepeaterReStore=Restore
+
+MindMapEntrance=MindMap Design Mode
+MindMapMapProjectHint=Generating project...
+MindMapNewSiblingPage=New page
+MindMapNewSiblingModule=New folder
+MindMapPasteChild=Paste
+
+AutoFitTips=Data fill
+AutoFitMaxTextLength=Max text length
+AutoFitMinTextLength=Min text length
+
+UserFeedbackCaption=用户反馈
+UserFeedbackSubmit=提交
+UserFeedbackWelcom=你好，%s，感谢提交反馈，你留下的每个字将用来更新改善Mockplus服务。
+UserFeedbackPlaceHolder=告诉我们遇到了什么问题，或者意见建议
+UserFeedbackWordLimit=字数限制10-1000
+UserFeedbackUpload=附件上传
+UserFeedbackFileChoice=选择文件
+UserFeedbackContact=联系方式
+UserFeedbackContactPlaceHolder=留下电话号码、邮箱地址或QQ号，我们将及时给予反馈
+
+AboveInsertOne=Insert row above
+BottomInsertOne=Insert row below
+AboveInsertThree=Insert 3 rows above
+BottomInsertThree=Insert 3 rows below
+LeftInsertOne=Insert column left
+RightInsertOne=Insert column right
+LeftInsertThree=Insert 3 columns left
+RightInsertThree=Insert 3 columns right
