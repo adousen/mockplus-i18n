@@ -1,0 +1,1279 @@
+{
+  "lang": "zh-CN",
+  "test": {
+    "hello": "你好",
+    "format": "你好 {0}",
+    "name": {
+      "space": "测试命名空间"
+    }
+  },
+  "common": {
+    "ok": "成功",
+    "err": "出现错误",
+    "error": {
+      "operationFail": "操作失败，请稍后重试或联系 service@jongde.com。",
+      "invalidRequest": "无效的请求。",
+      "needAuth": "抱歉，你的账号已在别处登录，请重新登录后继续。",
+      "checkForm": "请填写正确的信息。",
+      "illegalRequest": "非法请求。",
+      "fileTooLarge": "文件尺寸过大",
+      "server": {
+        "title": "服务器错误",
+        "message": "服务器错误，请稍后重试或者发送邮件给我们：service@jongde.com。"
+      }
+    },
+    "feedback": {
+      "submitSuccess": "谢谢你的反馈，我们将在两个工作日内通过邮件回复你，请注意查收。",
+      "requireContent": "请填写反馈内容。"
+    },
+    "title": {
+      "register": "注册",
+      "login": "登录",
+      "resetPwd": "重置密码",
+      "policy": "注册协议"
+    },
+    "share": {
+      "file": "分享页面：",
+      "referral": "快来免费试用 Mockup Plus 吧！"
+    }
+  },
+  "account": {
+    "email": "邮箱",
+    "password": "密码",
+    "tourist": "游客",
+    "error": {
+      "requirePassword": "请填写密码。",
+      "pwdTooShort": "抱歉，密码太短，至少6个字符。",
+      "pwdTooLong": "抱歉，密码太长，超过了20个字符。"
+    },
+    "register": {
+      "emailHasExist": "账号 {0} 已经存在。",
+      "invalidEmail": "无效的邮件地址。",
+      "nameTooShort": "用户名太短",
+      "pwdNotMatch": "两次输入不一致",
+      "confirm": "再次输入",
+      "agreement": {
+        "first": "我已经阅读并同意",
+        "second": "《使用协议》"
+      },
+      "haveNotAgree": "还没有同意使用协议。",
+      "haveAccount": {
+        "first": "已有账号,",
+        "second": "直接登录"
+      }
+    },
+    "login": {
+      "fail": "账户和密码不匹配。",
+      "notExist": "账号不存在。",
+      "rememberMe": "记住密码",
+      "forgetPwd": "忘记密码？",
+      "findPwd": "账户和密码不匹配，你可以通过“忘记密码”找回密码",
+      "banned": "检测到账户异常，已被禁止登录，请发送邮件到 service@jongde.com 寻求帮助。",
+      "noAccount": {
+        "first": "没有账号?",
+        "second": "注册一个"
+      }
+    },
+    "forgetPwd": {
+      "title": "找回密码",
+      "fillEmail": "请填写你的邮箱",
+      "accountNotExist": "账号不存在",
+      "submitSuccess": "提交成功！",
+      "submit": "提交",
+      "sentEmail": {
+        "first": "我们已经向你的邮箱",
+        "second": "发送了一封邮件用来重置密码，请前往查看。发送邮件一般需要等待几分钟时间，请耐心等候。邮件有可能被投递到垃圾箱中，请仔细查找。如果有任何问题，请联系：service@jongde.com 。"
+      },
+      "checkEmail": "查看邮件",
+      "return": "返回"
+    },
+    "resetPwd": {
+      "title": "重置密码",
+      "newPassword": "新密码",
+      "confirm": "再次确认",
+      "reset": "重置密码",
+      "resetSuccess": "重置成功",
+      "reLogin": "重置密码成功，请重新登录。",
+      "invalidRequest": "无效的请求",
+      "invalidRequestReason": "无效的请求，可能的原因是：",
+      "reason": {
+        "first": "1. 无效的验证信息",
+        "second": "2. 验证信息已经过期，请在获得链接后立即使用",
+        "third": "3. 验证信息已经被使用了，请重新申请"
+      },
+      "reapply": "重新申请",
+      "oldPasswordNotCorrect": "旧密码不正确。",
+      "invalidToken": "错误的验证信息。",
+      "expired": "验证信息已经过期。",
+      "relogin": "重新登录"
+    },
+    "confirm": {
+      "title": "邮箱验证",
+      "btn": "返回",
+      "confirmSuccess": {
+        "title": "验证成功",
+        "content": "邮箱验证成功！"
+      },
+      "invalidRequest": {
+        "title": "无效的请求",
+        "reason": "无效的请求，可能的原因是：",
+        "reasonOne": "1. 无效的验证信息。",
+        "reasonTwo": "2. 验证信息已经过期，请在获得链接后立即使用。",
+        "reasonThree": "3. 验证信息已经被使用了，请重新申请。"
+      }
+    },
+    "license": {
+      "licenseExpired": "你的授权已经过期。",
+      "needUpgradeBeforeContinue": "请升级后进行此操作。"
+    },
+    "referral": {
+      "error": {
+        "invalid": "无效的邮箱 {0}",
+        "exist": "{0} 已经存在",
+        "invited": "{0} 已经被邀请过了",
+        "fail": "{0}/{1} 失败：{2}"
+      }
+    }
+  },
+  "software": {
+    "update": {
+      "noUpdate": "没有可用的更新，你正在使用最新版本。",
+      "newVersionAvailable": "新版本 {0} 可以使用了。"
+    },
+    "active": {
+      "success": "激活成功！\n感谢你购买我们的产品。\n如果你有任何问题，请发送邮件联系我们：service@jongde.com。\n我们将在接到邮件后的两个工作日内联系你。",
+      "invalidMacAddress": "无效的 MAC 地址。",
+      "noRemainCount": "抱歉，没有剩余的激活次数了。一个激活码只能激活 3 台设备。\n如果你需要激活更多，请购买更多的激活码。\n如果你有任何问题，请发邮件到 service@jongde.com 联系我们。",
+      "invalidLicense": "无效的激活码。\n 如果你忘记了你的激活码，请发送邮件到 service@jongde.com 取得帮助。"
+    },
+    "license": {
+      "freeTrialExpired": "你的免费试用已经到期，请购买激活码。",
+      "notExpired": "你的授权可以继续使用。",
+      "retrieve": {
+        "requireEmail": "需要填写邮箱。",
+        "willSendLicenseKeyToEmail": "我们将发送激活码到你的邮箱，如果你在收件箱中没有找到，请查看垃圾箱。",
+        "haveNotBuy": "你没有购买过我们的产品。"
+      }
+    },
+    "webApp": {
+      "pro": {
+        "features": {
+          "f1": "创建私密项目数量无上限。",
+          "f2": "导出图片。",
+          "f3": "导出 PDF 文件。",
+          "f4": "导出 HTML 演示文件。",
+          "f5": "获得超过 400 个图标。"
+        }
+      }
+    },
+    "purchase": {
+      "desktop": {
+        "success": "购买成功。",
+        "canceled": "取消购买。",
+        "error": {
+          "countMustBePositive": "数量必须为正整数。"
+        }
+      },
+      "webApp": {
+        "success": "购买成功。",
+        "buyMockupOnline": "购买 Mockup Plus 在线版 {0} {1} 个月。",
+        "buyMockupOnlineForOneYear": "购买 Mockup Plus 在线版 1 年。",
+        "monthMustBePositive": "月数必须为正数。"
+      },
+      "error": {
+        "paymentError": "支付错误，请重试或者发送邮件到 service@jongde.com 联系我们，我们将在 2 个工作日内回复。",
+        "requireEmail": "需要邮箱。",
+        "payPalPaymentError": "支付错误，请重试。"
+      }
+    }
+  },
+  "project": {
+    "create": {
+      "success": "项目创建成功。",
+      "error": {
+        "projectNameTooLong": "项目名称太长，请保持在 {0} 个字符以内。",
+        "requireProjectName": "请填写项目名称。",
+        "projectExist": "项目 {0} 已经存在了，请更换另外一个名称。",
+        "tooMuchProjects": "免费账户只能创建 {0} 个项目，请升级以创建更多。",
+        "banChar": "名称中不能包含：{0}。"
+      }
+    },
+    "noProject": "没有项目。",
+    "emptyProject": "该项目为空，没有添加任何文件。",
+    "upgradeBeforeSetPrivate": "你需要先升级为专业版才能将项目设置为私密。",
+    "previewMode": "预览模式",
+    "canNotEdit": {
+      "title": "你无法修改这个项目",
+      "desc": "你无法修改这个项目，可能的原因是：",
+      "reason1": "1. 这不是你的项目；",
+      "reason2": "2. 这个项目已经被删除。",
+      "back": "返回",
+      "myDesign": "我的设计"
+    }
+  },
+  "file": {
+    "create": {
+      "success": "文件创建成功",
+      "error": {
+        "fileExist": "文件已经存在",
+        "requireFileName": "请填写文件名",
+        "fileNameTooLong": "文件名过长，并保持在 {0} 个字符以内。",
+        "tooMuchFiles": "免费用户只能创建 {0} 个文件，请升级以创建更多。",
+        "banChar": "名称中不能包含：{0}。"
+      }
+    },
+    "save": {
+      "success": "文件保存成功。"
+    },
+    "delete": {
+      "success": "文件删除成功。"
+    },
+    "fileNotFound": "文件不存在。",
+    "review": {
+      "noReview": "没有审阅信息。",
+      "invalidReview": "审阅内容长度请保持在 1~500 个字符以内",
+      "invalidReply": "回复长度请保持在 1~500 个字符以内"
+    }
+  },
+  "blog": {
+    "comment": {
+      "commentFail": "添加评论失败，请稍后重试。",
+      "commentSuccess": "评论添加成功，谢谢。",
+      "error": {
+        "requireName": "请填写名称",
+        "requireEmail": "请填写邮箱",
+        "requireContent": "请填写内容",
+        "contentShouldNotBeEmpty": "评论内容不能为空",
+        "contentTooLong": "评论长度不得超过 500 字",
+        "userNameShouldNotBeEmpty": "用户名不能为空",
+        "userNameTooLong": "用户名长度不得超过 50 字"
+      }
+    }
+  },
+  "page": {
+    "homepage": {
+      "title": "摹客 | 简洁高效的原型设计工具",
+      "slogan": "/images/content/appHomeEn.png"
+    },
+    "blog": {
+      "title": "博客",
+      "latest": "最近更新"
+    },
+    "menu": {
+      "project": "我的设计",
+      "upgrade": "升级",
+      "account": "账户",
+      "review": "审阅",
+      "invite": "我发起的",
+      "invited": "邀请我的",
+      "contacts": "联系人",
+      "signout": "注销",
+      "help": "帮助",
+      "community": "社区",
+      "skill": "技巧"
+    },
+    "home": {
+      "title": "我的设计",
+      "new": "新建项目",
+      "rename": "设置",
+      "share": "分享",
+      "clone": "克隆",
+      "delete": "删除",
+      "run": "运行",
+      "mockup": "页面",
+      "mockups": "页面",
+      "empty": "空",
+      "shareLink": "分享链接",
+      "review": "邀请审阅",
+      "phone": "手机",
+      "tablet": "平板",
+      "noProject": {
+        "first": "当前没有项目，",
+        "second": "创建一个。"
+      }
+    },
+    "project": {
+      "title": "我的设计",
+      "mockItUp": "开始设计！",
+      "privacy": "私密",
+      "public": "公开",
+      "revision": "历史",
+      "delete": "删除",
+      "share": "分享",
+      "zoom": "查看大图",
+      "shareLink": "分享链接",
+      "modify": "修改",
+      "preview": "预览",
+      "design": "设计",
+      "run": "运行",
+      "noFile": {
+        "first": "项目是空的，立即",
+        "second": "开始设计！"
+      }
+    },
+    "account": {
+      "title": "账户",
+      "email": "邮箱：",
+      "changePwd": "修改密码",
+      "changeAvatar": "修改头像",
+      "changeNameSuccess": "用户名已经修改",
+      "verify": "验证邮箱",
+      "checkEmail": "请进入你的邮箱并完成验证",
+      "noEmail": "收不到邮件？",
+      "project": {
+        "info": {
+          "total": "项目总数",
+          "private": "私有",
+          "public": "公开"
+        },
+        "bar": {
+          "title": "私密项目使用情况(在线版)：",
+          "used": "已经使用的私密项目",
+          "remain": "剩余的免费私密项目",
+          "upgrade": "升级后可获得无限的私密项目",
+          "hasUpgrade": "升级获得的私密项目数(无限制)",
+          "unlimited": "无限制"
+        },
+        "how": {
+          "desc": "你可以通过以下方式获得更多私密项目：",
+          "upgrade": {
+            "title": "升级为专业版",
+            "hasUpgrade": "已升级",
+            "expireDate": "到期时间",
+            "renew": "续费",
+            "upgradeNow": "立即升级"
+          },
+          "referral": {
+            "title": "邀请好友",
+            "desc": "每邀请一位好友完成注册，免费的私密项目数量上限永久+1，最多可以增加10个。如果被邀请人付费，你将获得销售额的 40% 作为奖励。",
+            "now": "立即邀请",
+            "checkBonus": "查看奖励情况"
+          }
+        },
+        "rewardLog": {
+          "title": "奖励记录",
+          "noRewardLog": "没有奖励记录",
+          "rewardType": {
+            "title": "奖励类型",
+            "invite": "邀请",
+            "emailVerify": "邮箱验证",
+            "commission": "佣金"
+          },
+          "rewardContent": {
+            "project": "免费私密项目 +{0}",
+            "emailConfirmed": "邮箱验证通过",
+            "bonus": "佣金",
+            "bonusMoney": "￥{0}"
+          },
+          "updateTime": {
+            "title": "更新时间"
+          },
+          "reward": {
+            "title": "奖励"
+          },
+          "state": {
+            "inHand": "进行中",
+            "finished": "已达上限",
+            "verifying": "邮箱未验证"
+          }
+        },
+        "contact": {
+          "contact": "联系人",
+          "addContact": "添加联系人",
+          "email": "邮箱",
+          "name": "备注",
+          "addTime": "添加时间",
+          "operation": "操作",
+          "delete": "删除",
+          "noContact": "没有联系人，",
+          "modify": "修改 ",
+          "modifyWarning1": "你只能修改",
+          "modifyWarning2": "的显示名称，无法修改邮箱，如果需要修改邮箱，请删除后重新添加",
+          "addRightInfo": "添加正确的信息",
+          "addRightName": "添加正确的用户名",
+          "submit": "确定",
+          "cancel": "取消",
+          "deleteWaring1": "删除后, ",
+          "deleteWaring2": " 将不能:",
+          "deleteCant1": "再接收你的新审阅邀请",
+          "deleteCant2": "在之前被邀请的项目中添加审阅"
+        }
+      }
+    },
+    "referral": {
+      "title": "推荐",
+      "desc": "每邀请一位好友完成注册，免费的私密项目数量上限永久+1，最多可以增加10个。如果被邀请人付费，你将获得销售额的 40% 作为奖励。",
+      "socialShare": {
+        "title": "分享到社区"
+      },
+      "emailInvite": {
+        "title": "发送邮件邀请",
+        "textAreaPlace": "每行填写一个",
+        "button": "发送邀请"
+      },
+      "linkInvite": {
+        "title": "通过链接发送邀请",
+        "mode": "直接复制以下链接发送给朋友，对方完成注册后，你可以创建的私密项目数量+1。",
+        "copyNow": "开始复制"
+      },
+      "showMsg": {
+        "invalidEmail": "填写正确的邮箱地址",
+        "noEmail": "没有添加邮箱地址",
+        "moreThan": "一次不能超过10个"
+      }
+    },
+    "upgrade": {
+      "license": "授权",
+      "currentLicense": "当前授权：",
+      "expireDate": "到期时间：",
+      "upgrade": "升级",
+      "renew": "续费",
+      "free": "免费版",
+      "pro": "专业版",
+      "totalPrice": "总价：",
+      "loading": "载入中",
+      "oneMonth": "1个月",
+      "halfYear": "半年",
+      "oneYear": "一年",
+      "slogan": {
+        "first": "最大限度",
+        "second": "的分享",
+        "third": "你的实惠，是我们的快乐"
+      },
+      "desc": {
+        "d1": {
+          "first": "庆祝桌面版发布，",
+          "second": " 中",
+          "price": " 限时优惠"
+        },
+        "d2": "一个账号，一份价格，同时拥有 Mockplus 桌面版和在线版！",
+        "d3": "凡在 2015年2月1日 0点 之前升级的用户，只需要 ￥49.95 即可包年使用，立即节省 58%。",
+        "d4": "如果我不想付费升级，还能够享受优惠吗？"
+      },
+      "price": {
+        "month": {
+          "actual": "4",
+          "unit": "/月 (包年)",
+          "not": {
+            "first": "￥10",
+            "second": ""
+          },
+          "is": {
+            "first": "￥6",
+            "second": ".5"
+          }
+        },
+        "year": {
+          "actual": "79",
+          "not": "￥120",
+          "is": "￥79"
+        }
+      },
+      "features": {
+        "privacy": "项目私密(在线版)",
+        "review": "审阅(在线版)",
+        "revision": "历史版本",
+        "revision_pro": "无数量限制",
+        "project": "项目数量",
+        "project_pro": "无数量限制",
+        "file": "页面数量",
+        "file_pro": "无数量限制",
+        "icon": "图标",
+        "icon_free": "100+",
+        "icon_pro": "3000+, 持续增加中",
+        "projectManage": "项目管理",
+        "exportPDF": "导出 PDF(在线版)",
+        "exportPNG": "导出 PNG",
+        "exportHTML": "导出演示",
+        "unlimited": "无数量限制",
+        "print": "打印",
+        "viewer": "原型随手看",
+        "template": "自定义模板(桌面版)",
+        "run": "交互演示"
+      }
+    },
+    "help": {
+      "title": "帮助",
+      "desc": "如果你需要帮助，请告诉我。",
+      "response": "我会在2个工作日内回复你，谢谢支持！",
+      "duty": "当班小生",
+      "submit": "提交",
+      "emptyContent": "内容不能为空"
+    },
+    "revisions": {
+      "title": "历史版本",
+      "desc": "Mockup Plus 将自动保存页面的快照，你可以从下面的列表中选择一个预览或者重置：",
+      "upgrade": {
+        "first": "升级",
+        "second": "以查看剩下的",
+        "third": "个历史版本。"
+      },
+      "version": "版本",
+      "noRevision": {
+        "first": "这个页面没有历史版本。",
+        "second": "Mockup Plus 将自动保存历史版本。所有的历史版本将陈列在这里。"
+      },
+      "restore": "重置"
+    },
+    "fileShare": {
+      "title": "文件分享",
+      "cancelShare": "取消分享",
+      "addShare": "添加分享",
+      "shareFileUpgrade": {
+        "please": "(请",
+        "upgrade": "升级",
+        "continue": "继续)。"
+      },
+      "comments": {
+        "title": "评论",
+        "noComment": "没有评论。",
+        "newComment": {
+          "title": "添加评论",
+          "name": "姓名",
+          "email": "邮箱",
+          "website": "网址",
+          "submit": "提交评论"
+        }
+      },
+      "shareCancel": "此分享已被取消"
+    },
+    "paySuccess": {
+      "title": "升级成功",
+      "thanks": "感谢你的支持，现在你将享受以下权益：",
+      "return": "返回"
+    },
+    "payFail": {
+      "title": "购买失败",
+      "error": "错误：",
+      "rePurchase": "重新购买"
+    },
+    "payCancel": {
+      "title": "取消购买",
+      "message": "你取消了购买，你可以",
+      "return": "返回 App",
+      "rePurchase": "重新购买"
+    },
+    "unSubscribe": {
+      "title": "退订",
+      "success": "退订成功",
+      "content": "非常抱歉对你的打扰，我们已收到你的通知，以后将不会再发送营销邮件给你。",
+      "toHome": "返回首页",
+      "time": " 秒后,自动返回首页"
+    },
+    "$projectNew": {
+      "new": "新建项目",
+      "name": "项目名称",
+      "create": "创建",
+      "cancel": "取消",
+      "nameEmpty": "项目名字为空",
+      "equipment": "设备",
+      "free": "自由",
+      "aspectRatio": "宽高比",
+      "custom": "自定义",
+      "scanQR": "扫描二维码自动获取",
+      "width": "宽：",
+      "height": "高：",
+      "ok": "确定"
+    },
+    "design": {
+      "noFlash": {
+        "desc": "请检查你是否已经安装了最新版本的 Adobe Flash。",
+        "help": "如需帮助，请加入QQ群：521397109 或",
+        "contact": "联系 service@jongde.com",
+        "thank": "。",
+        "download": "前往下载",
+        "support": "常见问题"
+      },
+      "firstUse": {
+        "first": "欢迎使用 Mockup Plus!",
+        "second": "第一次使用需要加载必要的资源，请稍等。"
+      },
+      "loadingProverb": [
+        {
+          "content": "简单就是最终极的复杂。",
+          "author": "—Leonardo da Vinci"
+        },
+        {
+          "content": "发现你爱做的事情是弥足珍贵的，我鼓励你继续下去。忠诚于你的天赋并对其价值保持自信。",
+          "author": "—Jonathan Ive"
+        },
+        {
+          "content": "越快得到真实数据越好，这将会让你看到你的努力是否起作用了。",
+          "author": "—Luke Wroblewski"
+        },
+        {
+          "content": "忘掉那些漂亮的图片吧，帮助人们做他们想做的事情。",
+          "author": "—Dirk Knemeyer"
+        },
+        {
+          "content": "原型不是终点，它们是手段。",
+          "author": "—Dirk Knemeyer"
+        },
+        {
+          "content": "每个行为都是一种沟通方式。",
+          "author": "—Paul Watzlawick"
+        },
+        {
+          "content": "如果每件事都很重要的话，那就没有什么是重要的了。",
+          "author": "—Andrei Herasimchuk"
+        },
+        {
+          "content": "满足需求是平庸之为，引领需求才是高手之道。",
+          "author": "—Jobs"
+        },
+        {
+          "content": "凡墙总是门",
+          "author": "—禅语"
+        },
+        {
+          "content": "设计要打动别人，首先须打动自己",
+          "author": "—路人"
+        },
+        {
+          "content": "设计就是在约束之内寻找解决方案，若无约束，就不是设计，是艺术。",
+          "author": "Matias Duarte"
+        },
+        {
+          "content": "",
+          "author": ""
+        }
+      ]
+    },
+    "support": {
+      "title": "支持",
+      "feedback": "感谢你的反馈!",
+      "question": {
+        "related": "相关",
+        "noRelated": "没有相关信息",
+        "wasHelpful": "这篇文章是否有帮助？",
+        "yes": "有",
+        "no": "无"
+      },
+      "search": {
+        "faq": "常见问题",
+        "btnValue": "搜索",
+        "noSearch": "没有相关内容",
+        "searchTitle": "搜索："
+      },
+      "home": {
+        "btnValue": "搜索",
+        "faq": "常见问题",
+        "inTouch": "提交你的建议",
+        "email": "邮箱地址",
+        "message": "内容",
+        "submit": "提交",
+        "keyWord": "关键字",
+        "contact": "联系方式"
+      }
+    },
+    "community": {
+      "index": {
+        "showDesign": "晒晒设计",
+        "pages": "个页面",
+        "title": "社区",
+        "lastUpdated": "最近更新",
+        "noUser": "没有用户信息。",
+        "latestDesign": "最近设计",
+        "noFile": "没有文件信息。"
+      },
+      "file": {
+        "title": "社区文件",
+        "comments": "评论",
+        "noComment": "没有评论信息。",
+        "please": "请",
+        "login": "登录",
+        "continue": "后继续",
+        "ok": "确定",
+        "addComment": "添加一条评论",
+        "notFound": "此文件不存在或者你没有权限查看。"
+      },
+      "project": {
+        "noFile": "此项目没有文件信息。",
+        "preview": "预览",
+        "notFound": "该项目不存在或者你没有权限查看。"
+      },
+      "user": {
+        "noProject": "此用户没有项目信息",
+        "pages": "个页面",
+        "page": "个页面"
+      }
+    },
+    "browser": {
+      "browserCheck": "浏览器兼容性检查",
+      "browserIs": "你的浏览器为 ",
+      "notWorkMost": "你的浏览器无法正常使用本网站大部分功能，建议",
+      "upgrade": "立即升级",
+      "download": "立即下载",
+      "choiceSelf": "，或者根据个人喜好下载以下浏览器使用：",
+      "notUseReview": "你的浏览器无法正常使用审阅功能，建议",
+      "canUse": "你的浏览器能够正常使用本网站，有问题请联系service@jongde.com，或者根据个人喜好下载以下浏览器使用：",
+      "chrome": "界面简洁，操作简单，速度非常快。对内存消耗较高,<br>建议4G内存以上配置使用，可以获得最佳体验。",
+      "firefox": "Mozilla出品的老牌浏览器，使用流畅，拥有较多扩展<br>自定义功能强大。适合中高端用户使用。"
+    },
+    "mobile": {
+      "pages": "个页面，",
+      "update": "更新",
+      "runNow": "立即运行",
+      "aspectRatio": "使用宽高比为",
+      "good": "的屏幕可以获得最佳体验",
+      "yourRatio": "你的手机宽高为",
+      "choiceMode": "，请选择运行方式：",
+      "adaptPage": "适应页面",
+      "adaptScreen": "适应屏幕",
+      "runYouCan": "运行时，你可以：",
+      "pressLongTime": "1、长按显示工具条",
+      "hotZone": "2、点击页面显示热区",
+      "switchPage": "3、点击热区切换页面",
+      "return": "返回"
+    },
+    "$changePwd": {
+      "title": "修改密码",
+      "oldPwd": "旧密码",
+      "newPwd": "新密码",
+      "confirm": "确认新密码",
+      "submit": "修改",
+      "cancel": "取消"
+    },
+    "$avatar": {
+      "title": "系统头像",
+      "submit": "更新",
+      "cancel": "取消",
+      "uploadAvatarTitle": "支持JPG、PNG，不要超过200k",
+      "chooseAvatar": "上传头像",
+      "errorMsg": "请选择头像或上传头像"
+    },
+    "$delFile": {
+      "title": "删除 ",
+      "desc": "一旦删除，这个页面",
+      "noRestored": "将无法恢复。",
+      "confirm": "确认删除吗？",
+      "submit": "删除",
+      "cancel": "取消"
+    },
+    "$upgrade": {
+      "title": "升级",
+      "prompt": "请升级后再进行此操作。",
+      "featureTitle": "升级后，你可以享受以下权益：",
+      "upgradeNow": "立即升级",
+      "later": "稍后再说"
+    },
+    "$renameProject": {
+      "title": "设置项目",
+      "newName": "名称",
+      "description": "描述",
+      "state": "状态",
+      "public": "公开",
+      "private": "私密",
+      "submit": "更新",
+      "cancel": "取消",
+      "nameEmpty": "项目名字为空"
+    },
+    "$delProject": {
+      "title": {
+        "first": "删除项目",
+        "second": "？"
+      },
+      "empty": {
+        "first": "该项目",
+        "second": "为",
+        "third": "空",
+        "four": "，项目删除后将",
+        "noRestore": "无法恢复。"
+      },
+      "one": {
+        "first": "该项目",
+        "second": "有",
+        "third": "一个",
+        "four": "页面，项目删除后将",
+        "noRestore": "无法恢复。"
+      },
+      "more": {
+        "first": "该项目",
+        "second": "有",
+        "third": " 个",
+        "four": "页面，项目删除后将",
+        "noRestore": "无法恢复。"
+      },
+      "confirm1": "请输入",
+      "confirm2": "确认删除：",
+      "submit": "我已经知道后果，删除此项目",
+      "cancel": "取消"
+    },
+    "$freeUse": {
+      "register": "注册",
+      "login": "登录",
+      "submit": "确定",
+      "cancel": "取消",
+      "welcome": {
+        "title": "欢迎",
+        "desc": "感谢使用",
+        "adText1": "简单、敏捷、够用，",
+        "adText2": "帮你快速设计原型。",
+        "adText3": "利用审阅，你还可以有效地和团队成员协作。",
+        "btn1": "免费注册",
+        "btn2": "立即试用"
+      },
+      "remind": {
+        "desc": "只需要一步就能完成注册，之后你可以创建项目，保存页面，还可以享受历史版本查看等多项高级功能：",
+        "createAccount": "立即注册",
+        "tryDesktop": {
+          "first": "或者，试试",
+          "second": "桌面版"
+        }
+      }
+    },
+    "$signOut": {
+      "title": "确认退出",
+      "desc": "即将退出登录，确认继续吗？",
+      "submit": "确定",
+      "cancel": "取消"
+    },
+    "$share": {
+      "title": "分享",
+      "shareTo": "分享到社区",
+      "shareLink": "分享链接",
+      "close": "关闭",
+      "copyLink": "复制"
+    },
+    "skill": {
+      "title": "技巧",
+      "new": "发布",
+      "newOne": "发布一条新技巧",
+      "edit": "修改",
+      "gets": "已学会的",
+      "mine": "我发布的",
+      "none": "暂无",
+      "more": "更多"
+    }
+  },
+  "emails": {
+    "layout": {
+      "desc": "请不要直接回复该邮件。",
+      "site": "http://www.mockplus.cn",
+      "mail": "service@jongde.com",
+      "help": {
+        "first": "如需帮助，请联系",
+        "second": "。"
+      }
+    },
+    "emailVerify": {
+      "subject": "请确认你的邮箱",
+      "thank": "感谢注册 Mockup Plus ！",
+      "desc": "请点击下面的链接验证你的邮箱。"
+    },
+    "invite": {
+      "subject": "{0}邀请你免费试用 Mockup Plus",
+      "desc": "你的朋友 {0} 邀请你免费试用 Mockup Plus"
+    }
+  },
+  "review": {
+    "ok": "确定",
+    "cancel": "取消",
+    "submit": "提交",
+    "close": "关闭",
+    "publication": "发表",
+    "password": "密码",
+    "invited": "邀请我的",
+    "invite": "我发起的",
+    "signout": "退出",
+    "switchAcc": "切换账号",
+    "continueReview": "继续审阅",
+    "err": {
+      "noFile": "没有文件信息",
+      "noName": "必须有项目名称",
+      "noContact": "至少需要一位联系人"
+    },
+    "auth": {
+      "authentication": "请输入密码验证你的身份",
+      "forgetPassword": "忘记密码？"
+    },
+    "initPwd": {
+      "title": "请设置你的初始密码",
+      "confirmAdd": "验证邮箱地址",
+      "confirmPwd": "确认密码"
+    },
+    "reviewInvite": {
+      "newReviewNum": "条新审阅",
+      "fromClient": "来自客户端",
+      "cancelReview": "取消审阅",
+      "noProjectReview": "没有需要审阅的项目",
+      "noReview": "你现在还没有发起需要审阅的项目，你可以：",
+      "clickHere": "点击这里",
+      "howReview": ", 到“我的设计”中，选择需要审阅的项目，发出邀请给同伴。",
+      "or": "或者，",
+      "seeDescription": "，查看介绍。"
+    },
+    "reviewInvited": {
+      "noProjectReview": "没有邀请我审阅的项目"
+    },
+    "reviewFiles": {
+      "unread": "条审阅未读",
+      "empty": "项目是空的",
+      "help": "帮助",
+      "rate": "当前比例：",
+      "yourComment": "你的意见",
+      "reply": "回复意见",
+      "deleteReview": "删除审阅",
+      "hold": "按住",
+      "ctrl": "键，点击图片，也可放大缩小",
+      "dragPin": "2、自己的图钉可以拖动.",
+      "ratio": "图片当前比例为：",
+      "customColor": "修改你的批注颜色",
+      "runMode": "运行模式",
+      "reviewMode": "审阅模式"
+    },
+    "project": {
+      "inviteYou": "邀请你审阅他的原型设计",
+      "list": "审阅人列表",
+      "confirm": "请输入你的完整邮件地址以验证你的身份：",
+      "review": "开始审阅",
+      "noList": "如果你不在上面的列表中，请向",
+      "isInvite": "确认是否邀请了你。"
+    },
+    "$cancelReview": {
+      "title": "停止审阅",
+      "waring1": "一旦停止，这个项目“",
+      "waring2": "”将不能再被审阅。",
+      "confirm": "确认停止吗？"
+    },
+    "$inviteReview": {
+      "title": "邀请审阅：",
+      "reviewerList": "请选中你要邀请审阅的联系人：",
+      "manageContact": "联系人管理",
+      "addEmail": "添加你要邀请的联系人邮箱(每行1个)：",
+      "inviteSuccess": "邀请成功！你的联系人将收到邮件通知，请提醒他们注意查收。",
+      "copy": "你也可以复制以下链接直接发给联系人：",
+      "copyLink": "复制链接"
+    }
+  },
+  "models": {
+    "phone": [
+      {
+        "ratio": "9:16",
+        "devices": [
+          "iPhone 6/6+",
+          "三星 Galaxy S3/S4/S5/Note/Note 2/Nexus",
+          "小米 1S/2/2A/2S/3/3s(概念)/4/红米/红米 Note",
+          "HTC One(M8)/Desire 820",
+          "索尼 Xperia Z",
+          "华为 Ascend P7/Ascend Mate7/荣耀 6/C199",
+          "锤子 Smartisan T1",
+          "OPPO N1 mini/R1S/R3/Find 7 轻装版"
+        ]
+      },
+      {
+        "ratio": "40:71",
+        "devices": [
+          "iPhone 5/5c/5s"
+        ]
+      },
+      {
+        "ratio": "2:3",
+        "devices": [
+          "iPhone 3GS/4/4s"
+        ]
+      },
+      {
+        "ratio": "3:5",
+        "devices": [
+          "三星 Galaxy SII/S Plus",
+          "诺基亚 Lumia 520/620/710/720/800/900/920/925/1024",
+          "三星 Nexus S",
+          "Google Nexus 4 by LG",
+          "HTC Desire/Desire HD",
+          "HTC Evo",
+          "黑莓 Z10",
+          "魅族 MX4"
+        ]
+      },
+      {
+        "ratio": "自定义",
+        "devices": []
+      }
+    ],
+    "tablet": [
+      {
+        "ratio": "3:4",
+        "devices": [
+          "iPad 1/2/3/4",
+          "iPad mini/mini with Retina"
+        ]
+      },
+      {
+        "ratio": "5:8",
+        "devices": [
+          "Google Nexus 10 by Samsung",
+          "三星 Galaxy Tab 10.1/Tab 2 10.1",
+          "Nexus 7(2012)",
+          "Amazon Kindle Fire HD 7\"/8.9\"",
+          "华硕 Transformer",
+          "三星 Galaxy Note 10.1"
+        ]
+      },
+      {
+        "ratio": "75:128",
+        "devices": [
+          "三星 Galaxy Tab/Tab 2",
+          "Amazon Kindle Fire 1st Gen"
+        ]
+      },
+      {
+        "ratio": "9:16",
+        "devices": [
+          "黑莓 PlayBook",
+          "微软 Surface/Surface Pro"
+        ]
+      },
+      {
+        "ratio": "自定义",
+        "devices": []
+      }
+    ]
+  },
+  "report": {
+    "title": "Mockplus社区",
+    "new_board": "新板块",
+    "new_issue": "新主题",
+    "hot_issues": "热门：",
+    "latest_issues": "最新：",
+    "more": "查看更多",
+    "private": "只有工作人员和发布人可以查看",
+    "update": "最后更新：",
+    "no_issues": "没有符合条件的结果。",
+    "search": "搜索",
+    "search_no_results": "没有搜索到相关问题，请更换关键词重新搜索。",
+    "login": "登录",
+    "logout": "退出",
+    "keyword": "关键词",
+    "edit": "编辑",
+    "member_manage": "成员管理",
+    "top": "置顶",
+    "limit": {
+      "stuff": "内部项目，只有工作人员可以查看",
+      "auth": "该板块仅限受邀用户查看"
+    },
+    "status": {
+      "status": "状态",
+      "all": "所有",
+      "new": "新",
+      "processing": "处理中",
+      "solved": "已解决"
+    },
+    "me": {
+      "me": "我",
+      "all": "所有",
+      "created": "我创建的",
+      "assigned": "分配给我的",
+      "followed": "我关注的"
+    },
+    "label": {
+      "label": "标签",
+      "all": "所有"
+    },
+    "event": {
+      "label": "应用了标签",
+      "unlabel": "移除了标签",
+      "assign": "分配给了",
+      "close": "标记为已解决",
+      "lock": "锁定了此问题",
+      "delete": "删除了此问题",
+      "work": "标记为正在解决",
+      "edit": "编辑了此主题"
+    },
+    "new": {
+      "new_title": "新帖",
+      "platform": "平台或版本",
+      "title": "标题",
+      "description": "详细描述",
+      "category": "类型",
+      "category_requirement": "需求",
+      "category_question": "提问",
+      "privacy": "隐私保护",
+      "keep_secret": "不要公开展示这条信息(只有工作人员，发布人可以查看)。",
+      "detail": "详细描述",
+      "submit": "提交",
+      "assign_to": "分配给"
+    },
+    "thread": {
+      "assign_to": "分配给",
+      "no_assign": "未分配给任何人",
+      "audit": {
+        "title": "审核",
+        "audited": "已通过审核",
+        "pass": "通过",
+        "deny": "拒绝",
+        "denied": "被拒绝"
+      },
+      "operate": {
+        "title": "操作",
+        "processing": "标记为正在处理",
+        "resolved": "标记为已解决",
+        "edit": "编辑",
+        "delete": "删除",
+        "public": "标记为公开",
+        "private": "标记为私密",
+        "top": "置顶",
+        "untop": "取消置顶",
+        "move": "移动"
+      }
+    },
+    "rank": {
+      "title": "积分排行榜",
+      "description": "积分通过发帖和回复产生，每次发帖加 5 分，每次回复加 1 分。"
+    },
+    "user": {
+      "points": "积分",
+      "rank": "排行榜",
+      "mine": "我的发帖",
+      "none": "无"
+    },
+    "comment": {
+      "comment": "添加评论",
+      "submit": "评论",
+      "login": "登录后"
+    },
+    "follow": {
+      "follow": "关注",
+      "cancel": "取消关注",
+      "following": "关注",
+      "description": "关注后，你的邮箱将收到更新通知。同时我们会优先处理关注人数更多的问题。",
+      "description2": "关注后，你的邮箱将收到更新通知。"
+    },
+    "subscribe": {
+      "unSubscribe_success": "取消订阅成功",
+      "unSubscribe_desc1": "取消订阅成功，你不会再收到来自这个帖子的邮件。",
+      "unSubscribe_desc2": "如果你觉得你的邮件被滥用，请发送反馈邮件到 service@jongde.com 向我们反馈，谢谢支持。"
+    },
+    "mail": {
+      "title": "社区",
+      "issue": "问题",
+      "solved": "已经处理完成。",
+      "subscribe": "如果后续还有更多动态，我们会发送到这个邮箱中，请将 no-reply@mockplus.cn 添加到你的联系人列表中方便接收通知。",
+      "unSubscribe1": "你也可以",
+      "unSubscribe2": "点击取消订阅",
+      "newComment": "收到一条新评论：",
+      "submit1": "你提交的问题",
+      "submit2": "我们已经收到。",
+      "label": "被应用了标签",
+      "unLabel": "被移除了标签",
+      "createByAdmin1": "针对你反馈的问题，我们的工作人员已经创建了一个页面 ",
+      "createByAdmin2": "来进行追踪。"
+    },
+    "admin": {
+      "board": {
+        "edit_title": "编辑板块",
+        "new_title": "创建板块",
+        "name": "名称",
+        "board_name": "板块名称",
+        "description": "介绍",
+        "board_description": "板块简介",
+        "permission": "访问权限",
+        "only_stuff": "仅限工作人员访问",
+        "only_authed": "仅允许收到邀请的用户和工作人员查看",
+        "save": "保存更改",
+        "create": "创建",
+        "fail": "标题或描述不能为空"
+      },
+      "member": {
+        "title": "成员管理",
+        "one_line_one_email": "一行一个邮箱",
+        "add": "添加新成员",
+        "submit": "添加",
+        "members": "现有成员",
+        "remove": "移除",
+        "fail_to_add": "有成员未添加成功，可能是因为该邮箱没有注册"
+      },
+      "label": {
+        "title": "标签管理",
+        "labels": "已有标签：",
+        "add": "添加：",
+        "name": "名字",
+        "name_desc": "标签名称，例如：Bug",
+        "color": "颜色",
+        "color_desc": "颜色值，例如: D73300",
+        "submit": "添加",
+        "fail": "请提供标签名称和颜色"
+      },
+      "thread": {
+        "back": "返回",
+        "edit_title": "修改问题",
+        "title": "标题",
+        "title_desc": "简单描述",
+        "content": "内容",
+        "content_desc": "详细描述",
+        "submit_change": "保存修改",
+        "assign_to": "分配给"
+      }
+    }
+  },
+  "lib": {
+    "not_exist": "该库不存在或已经被删除。",
+    "permission_denied": "你没有权限执行该操作。",
+    "cannot_sync": "你没有权限同步该库。",
+    "cannot_edit": "你没有权限对该库进行修改。",
+    "cannot_remove": "你没有权限删除该库。",
+    "cannot_view": "你没有权限查看该库内容。",
+    "title": "Mockplus组件库",
+    "author": "作者",
+    "componentsCount": "个组件",
+    "preview": "查看",
+    "has_been_added": "已订阅",
+    "add": "订阅",
+    "how_to_use": "订阅后如何使用？",
+    "use_lib": {
+      "step_1": "1. 在桌面客户端内打开一个项目。",
+      "step_2": "2. 切换到组件库。",
+      "step_3": "3. 点击同步按钮进行同步，订阅的组件库就会自动下载到客户端中了。"
+    },
+    "share": {
+      "exist": "该用户已经被分享过了。",
+      "cannot_share_to_self": "不能将库分享给自己。",
+      "has_been_canceled": "该用户的分享已经被取消过了。",
+      "cannot_share_to_free_user": "抱歉，不能分享给非专业版用户。"
+    },
+    "public": {
+      "exist": "你已经订阅了该库。",
+      "invalid_request": "无效的请求。",
+      "cannot_add_to_self": "你不能订阅自己的库。",
+      "has_not_been_added": "你还没有订阅该库。"
+    }
+  },
+  "ent": {
+    "invalid_request": "无效的请求。",
+    "invalid_project": "抱歉，该项目不存在或已经被删除。",
+    "server_fail": "操作失败，请稍后重试。",
+    "sync": {
+      "no_name": "没有项目名称",
+      "no_need": "无需同步。",
+      "permission_denied": "抱歉，你没有足够的权限进行该操作。",
+      "no_version_to_compare": "云端没有可以进行比较的版本。",
+      "server_has_updated": "抱歉，云端数据已经被更新，请重试。",
+      "busy": "抱歉，有人正在同步该项目，请稍后再试。"
+    },
+    "project": {
+      "invalid_code": "抱歉，原型查看码错误。",
+      "no_revision": "抱歉，没有发现可用的版本。"
+    },
+    "team": {
+      "has_been_added": "已经添加过该成员了。"
+    },
+    "share": {
+      "account_not_exist": "抱歉，该用户尚未注册Mockplus。",
+      "cannot_invite_myself": "你无需邀请自己。",
+      "cannot_suicide": "抱歉，你不能将自己移除。"
+    },
+    "lock": {
+      "no_page_to_lock": "没有选择相关的页面。",
+      "not_page_to_unlock": "没有选择相关的页面。",
+      "fail_to_lock": "抱歉，你目前不能编辑这些页面。"
+    },
+    "review": {
+      "empty_author": "签名不能为空。",
+      "empty_content": "内容不能为空。",
+      "notify": {
+        "invalid_email": "请输入有效的邮箱。",
+        "email_subject": "邀请你审阅原型："
+      }
+    }
+  }
+}

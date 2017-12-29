@@ -1,0 +1,135 @@
+{
+  "test": {
+    "hello": "hello",
+    "name": {
+      "space": "test name space"
+    }
+  },
+  "common": {
+    "ok": "Succeeded",
+    "error": {
+      "operationFail": "Operation failed, please retry later or contact support@jongde.com.",
+      "invalidRequest": "Invalid request.",
+      "needAuth": "Please continue after signing in.",
+      "illegalRequest": "Illegal request.",
+      "fileTooLarge": "File too large",
+      "server": {
+        "title": "Server error"
+      }
+    },
+    "feedback": {
+      "submitSuccess": "Thank you for your feedback, we will contact you within two business days.",
+      "requireContent": "Please input feedback."
+    }
+  },
+  "account": {
+    "error": {
+      "requirePassword": "Password required.",
+      "pwdTooShort": "Password must be at least 6 characters in length.",
+      "pwdTooLong": "Password cannot exceed 20 characters in length."
+    },
+    "register": {
+      "invalidEmail": "Invalid email."
+    },
+    "login": {
+      "fail": "The email and password you entered did not match our records.",
+      "notExist": "Account does not exist.",
+      "banned": "Suspicious login, please mail to support@jongde.com to get help."
+    },
+    "resetPwd": {
+      "oldPasswordNotCorrect": "Incorrect old password.",
+      "invalidToken": "Invalid verification information.",
+      "expired": "The verification information has already expired."
+    },
+    "license": {
+      "needUpgradeBeforeContinue": "Need upgrade to continue."
+    }
+  },
+  "software": {
+    "update": {
+      "noUpdate": "Your Mockplus is already up to date."
+    },
+    "purchase": {
+      "desktop": {
+        "error": {
+          "countMustBePositive": "Count must be a positive number."
+        }
+      }
+    }
+  },
+  "project": {
+    "create": {
+      "error": {
+        "requireProjectName": "Project name required."
+      }
+    }
+  },
+  "file": {
+    "create": {
+      "error": {
+        "requireFileName": "File name required."
+      }
+    }
+  },
+  "emails": {
+    "emailVerify": {
+      "subject": "Please confirm your email for Mockplus"
+    }
+  },
+  "lib": {
+    "not_exist": "This library doesn't exist or has been deleted.",
+    "permission_denied": "Permission denied.",
+    "cannot_sync": "You don't have the permission to sync this library.",
+    "cannot_edit": "You don't have the permission to edit this library.",
+    "cannot_remove": "You don't have the permission to delete this library.",
+    "cannot_view": "You don't have the permission to view this library.",
+    "share": {
+      "exist": "This account is already in the sharing list.",
+      "cannot_share_to_self": "You cannot share library to yourself.",
+      "has_been_canceled": "This account has been deleted from the sharing list.",
+      "cannot_share_to_free_user": "This account needs to be upgraded for happy sharing."
+    },
+    "public": {
+      "exist": "You have subscribed this library already.",
+      "invalid_request": "Invalid request.",
+      "cannot_add_to_self": "You can't subscribe your own libraries.",
+      "has_not_been_added": "This library hasn't been subscribed yet."
+    }
+  },
+  "ent": {
+    "invalid_request": "Invalid request.",
+    "invalid_project": "This project does not exist or has been deleted.",
+    "server_fail": "Operation failed. Please try again later.",
+    "sync": {
+      "no_need": "No synchronization required.",
+      "permission_denied": "Sorry, you don't have enough permissions to perform the operation.",
+      "no_version_to_compare": "Internal Server Error: Couldn't find any available revision on the cloud.",
+      "server_has_updated": "Sorry, the cloud data has been updated by others. Please try again later.",
+      "busy": "Sorry, someone is synchronizing the project. Please try again."
+    },
+    "project": {
+      "invalid_code": "Sorry, the view code you entered is incorrect.",
+      "no_revision": "Internal Server Error: Couldn't find any available revision."
+    },
+    "team": {
+      "has_been_added": "This user has already been added."
+    },
+    "share": {
+      "account_not_exist": "Sorry, this user has not registered with Mockplus.",
+      "cannot_invite_myself": "You do not need to invite yourself.",
+      "cannot_suicide": "Sorry, you cannot remove yourself."
+    },
+    "lock": {
+      "no_page_to_lock": "No relevant page has been selected.",
+      "fail_to_lock": "Sorry, you cannot edit these pages now."
+    },
+    "review": {
+      "empty_author": "The name cannot be empty.",
+      "empty_content": "The content cannot be empty.",
+      "notify": {
+        "invalid_email": "Please enter a valid email address.",
+        "email_subject": "Invite you to work on the prototype: "
+      }
+    }
+  }
+}
