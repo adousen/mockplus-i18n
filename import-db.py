@@ -1,11 +1,9 @@
 # -*- coding: utf-8 -*-
 import sqlite3
-import os
-from os.path import join
 from dbHelper import get_conn_and_cursor
 import urllib
-import chardet
 
+IS_DEV = True
 
 def insert_img(img_data):
     '''
@@ -68,11 +66,22 @@ def import_all_imgs(f):
     row = c.fetchone()
     while row:
         (cid, master_key, img) = row
-        img_path = 'img/' + str(cid) + '.png'
+        img_path = ''
+        http_path = ''
+        if IS_DEV:
+            img_path = 'img/' + str(cid) + '.png'
+            http_path = 'http://192.168.2.88:9922/img/' + str(cid) + '.png'
+        else:
+            img_path = '/srv/file/i18n/img/' + str(cid) + '.png'
+            http_path = 'https://file.mockplus.com/i18n/img/' + str(cid) + '.png'
         with open(img_path, 'w') as f:
             f.write(img)
-            insert_img((master_key, img_path))
+            insert_img((master_key, http_path))
         row = c.fetchone()
+
+
+def decode_text(txt):
+    return urllib.unquote_plus(txt).encode('latin-1').decode('utf-8')
 
 
 def import_master(db_path):
@@ -86,20 +95,97 @@ def import_master(db_path):
     row = c.fetchone()
     while row:
         (mid, key, en, zh) = row
-        insert_str((key, urllib.unquote_plus(en), zh))
+        insert_str((key, decode_text(en), decode_text(zh)))
         row = c.fetchone()
 
     c.execute('SELECT id, master_key, translate_value FROM translation')
     row = c.fetchone()
     while row:
         (tid, key, jp) = row
-        update_jp(key, jp)
+        update_jp(key, decode_text(jp))
         row = c.fetchone()
     conn.close()
 
 
+def import_review(db_path, uid):
+    '''
+    导入校对信息
+    '''
+    conn = sqlite3.connect(db_path)
+    c = conn.cursor()
+    c.execute('SELECT master_key, proof, remark FROM translation')
+    row = c.fetchone()
+    while row:
+        (mid, proff, remark) = row
+        insert_review(uid, (mid, decode_text(proff), decode_text(remark)))
+        row = c.fetchone()
+
+
+def insert_review(uid, data):
+    '''
+    插入 review
+    '''
+    conn, cur = get_conn_and_cursor()
+    sql = '''
+    INSERT INTO `review` (
+        `master_key`, `review`, `remark`, `uid`, `addtime`, `state`
+    )
+    VALUES (
+        %s, %s, %s, %s, now(), 0
+    )
+    '''
+    (mid, proff, remark) = data
+    cur.execute(sql, (mid, proff, remark, uid))
+    conn.commit()
+
+
+def prepare():
+    conn, cur = get_conn_and_cursor()
+    sqls = [
+        'DROP TABLE IF EXISTS `strs`;',
+        'DROP TABLE IF EXISTS `img`;',
+        'DROP TABLE IF EXISTS `review`',
+        r'''
+        CREATE TABLE `strs` (
+            `id` int(11) NOT NULL AUTO_INCREMENT,
+            `master_key` varchar(300) NOT NULL,
+            `en` text NOT NULL,
+            `cn` text NOT NULL,
+            `jp` text NOT NULL,
+            `addtime` datetime NOT NULL,
+            `state` tinyint(4) NOT NULL,
+            PRIMARY KEY (`id`)
+        ) ENGINE = InnoDB DEFAULT CHARSET=utf8
+        ''',
+        r'''
+        CREATE TABLE `img` (
+            `id` int(11) NOT NULL AUTO_INCREMENT,
+            `master_key` varchar(300) NOT NULL,
+            `img` varchar(100) NOT NULL,
+            `addtime` datetime NOT NULL,
+            `state` tinyint(4) NOT NULL DEFAULT '0',
+            PRIMARY KEY (`id`)
+        ) ENGINE=InnoDB DEFAULT CHARSET=utf8''',
+        r'''
+        CREATE TABLE `review` (
+            `id` INT PRIMARY KEY AUTO_INCREMENT,
+            `master_key` VARCHAR(300) NOT NULL,
+            `review` TEXT NOT NULL,
+            `remark` TEXT NOT NULL,
+            `uid` INT NOT NULL,
+            `addtime` DATETIME NOT NULL,
+            `state` INT NOT NULL
+        ) ENGINE = INNODB DEFAULT CHARSET = utf8;
+        '''
+    ]
+    for sql in sqls:
+        cur.execute(sql)
+    conn.commit()
+    conn.close()
+
 if __name__ == '__main__':
-    # db_path = 'db'
-    # for f in os.listdir(db_path):
-        # import_all_imgs(join(db_path, f))
-    import_master('./master.db')
+    prepare()
+    db_path = './master.db'
+    import_master(db_path)
+    import_all_imgs(db_path)
+    import_review(db_path, 1)
